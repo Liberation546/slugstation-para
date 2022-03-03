@@ -122,9 +122,6 @@ GLOBAL_VAR_INIT(announcing_vox, 0) // Stores the time of the last announcement
 	var/list/words = splittext(trim(message), " ")
 	var/list/incorrect_words = list()
 
-	if(words.len > 30)
-		words.len = 30
-
 	for(var/word in words)
 		word = lowertext(trim(word))
 		if(!word)
