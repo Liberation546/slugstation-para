@@ -422,7 +422,25 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 		"Glitchman",
 		"House",
 		"Database",
-		"Alien"
+		"Alien",
+		"Five Pebbles",
+		"Looks to the Moon",
+		"P03",
+		"what does cat want",
+		":BOIL:",
+		"gun",
+		"Flesh Prison",
+		"Minos Prime",
+		"Angela",
+		"McAngela",
+		":scav4real:",
+		"scav",
+		"Doctor Samuel Hayden",
+		"VEGA",
+		"Instant Christmas!",
+		" ",
+		"fren",
+		"Sundowner"
 		)
 	if(custom_sprite)
 		display_choices += "Custom"
@@ -433,6 +451,7 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 	icon = 'icons/mob/ai.dmi'	//reset this in case we were on a custom sprite and want to change to a standard one
 	switch(icontype)
 		if("Custom")
+			// TODO: make the custom sprites usable by all ckeys
 			icon = 'icons/mob/custom_synthetic/custom-synthetic.dmi'	//set this here so we can use the custom_sprite
 			icon_state = "[ckey]-ai"
 		if("Clown")
@@ -505,6 +524,43 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 			icon_state = "ai-database"
 		if("Alien")
 			icon_state = "ai-alien"
+		if("Five Pebbles")
+			icon_state = "ai-pebbles"
+		if("Looks to the Moon")
+			icon_state = "ai-moon"
+		if("P03")
+			icon_state = "ai-p03"
+		if("what does cat want")
+			icon_state = "ai-cat"
+		if(":BOIL:")
+			icon_state = "ai-boil"
+		if("gun")
+			icon_state = "ai-sylvgun"
+		if("Flesh Prison")
+			icon_state = "ai-fleshprison"
+		if("Minos Prime")
+			icon_state = "ai-minos"
+		if("Angela")
+			icon_state = "ai-angela"
+		if("McAngela")
+			icon_state = "ai-mcangela"
+		if(":scav4real:")
+			icon_state = "ai-scav4real"
+		if("scav")
+			icon_state = "ai-scav"
+		if("Doctor Samuel Hayden")
+			icon_state = "ai-hayden"
+		if("VEGA")
+			icon_state = "ai-vega"
+		if("Instant Christmas!")
+			icon_state = "ai-christmas"
+		if(" ")
+			icon_state = "ai-prunsel"
+		if("fren")
+			icon_state = "ai-vargfren"
+		if("Sundowner")
+			icon_state = "ai-sundowner"
+
 		else
 			icon_state = "ai"
 	//else
