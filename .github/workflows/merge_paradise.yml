@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-dmapi:
+  update-master:
     runs-on: ubuntu-latest
     name: Update master
     steps:
@@ -30,7 +30,8 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "Master Update"
         git add .
-        git commit -m 'Merge upstream/master to master'
+        git reset .github
+        git commit -m 'Merge latest Paradise to master'
         git push -f -u origin paradise-update
 
     - name: Create Pull Request
