@@ -1005,7 +1005,7 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 	if(check_unable())
 		return
 
-	var/list/ai_emotions = list("Very Happy", "Happy", "Neutral", "Unsure", "Confused", "Sad", "BSOD", "Blank", "Problems?", "Awesome", "Facepalm", "Friend Computer")
+	var/list/ai_emotions = list("Very Happy", "Happy", "Neutral", "Unsure", "Confused", "Sad", "BSOD", "Blank", "Problems?", "Awesome", "Facepalm", "Friend Computer", ":scav4real:", " ", "AGGA")
 	var/emote = input("Please, select a status!", "AI Status", null, null) in ai_emotions
 
 	if(check_unable())
@@ -1023,6 +1023,14 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 				SD.friendc = 1
 			else
 				SD.friendc = 0
+			if(emote==":scav4real:")
+				SD.scav = 1
+			else
+				SD.scav = 0
+			if(emote==" ")
+				SD.prunsel = 1
+			else
+				SD.prunsel = 0
 	return
 
 //I am the icon meister. Bow fefore me.	//>fefore

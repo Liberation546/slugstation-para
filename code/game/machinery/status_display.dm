@@ -33,6 +33,8 @@
 	frequency = DISPLAY_FREQ		// radio frequency
 
 	var/friendc = 0      // track if Friend Computer mode
+	var/scav = 0		// :scav4real:
+	var/prunsel = 0		//
 	var/ignore_friendc = 0
 
 	var/spookymode = 0
@@ -89,6 +91,12 @@
 /obj/machinery/status_display/proc/update()
 	if(friendc && !ignore_friendc)
 		set_picture("ai_friend")
+		return 1
+	if(scav && !ignore_friendc)
+		set_picture("ai_scav4real")
+		return 1
+	if(prunsel && !ignore_friendc)
+		set_picture("ai_prunsel")
 		return 1
 
 	switch(mode)
@@ -280,6 +288,12 @@
 				set_picture("ai_facepalm")
 			if("Friend Computer")
 				set_picture("ai_friend")
+			if(":scav4real:")
+				set_picture("ai_scav4real")
+			if(" ")
+				set_picture("ai_prunsel")
+			if("AGGA")
+				set_picture("agga")
 		return
 
 	if(mode==2)	// BSOD
