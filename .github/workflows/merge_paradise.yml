@@ -1,4 +1,4 @@
-name: Update TGS DMAPI
+name: Update master
 
 on:
   schedule:
