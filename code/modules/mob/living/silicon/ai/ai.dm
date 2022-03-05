@@ -440,7 +440,9 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 		"Instant Christmas!",
 		" ",
 		"fren",
-		"Sundowner"
+		"Sundowner",
+		"jinx",
+		"Superintendent"
 		)
 	if(custom_sprite)
 		display_choices += "Custom"
@@ -557,9 +559,15 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 		if(" ")
 			icon_state = "ai-prunsel"
 		if("fren")
-			icon_state = "ai-vargfren"
+			icon_state = "ai-fren"
 		if("Sundowner")
 			icon_state = "ai-sundowner"
+		if("jinx")
+			icon_state = "ai-jinx"
+		if("Superintendent")
+			icon_state = "ai-superintendent"
+		if("VCR")
+			icon_state = "ai-vcr"
 
 		else
 			icon_state = "ai"
