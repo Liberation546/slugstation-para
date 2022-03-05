@@ -241,7 +241,7 @@
 		to_chat(src, "<span class='warning'>You must wait before folding your chassis out again!</span>")
 		return
 
-	last_special = world.time + 200
+	last_special = world.time + 50
 
 	//I'm not sure how much of this is necessary, but I would rather avoid issues.
 	force_fold_out()
