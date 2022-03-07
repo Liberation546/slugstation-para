@@ -2927,10 +2927,17 @@
 				var/datum/event/electrical_storm/E = new /datum/event/electrical_storm
 				E.lightsoutAmount = 2
 			if("blackout")
+				var/sound = alert(usr, "Do you want to play the power failure sound?", "Lights out", "Yes", "No")
 				SSblackbox.record_feedback("tally", "admin_secrets_fun_used", 1, "Black Out")
 				message_admins("[key_name_admin(usr)] broke all lights", 1)
 				for(var/obj/machinery/light/L in GLOB.machines)
 					L.break_light_tube()
+				if(sound == "Yes")
+					for(var/mob/M in GLOB.player_list)
+						var/turf/T = get_turf(M)
+						if(!M.client || !is_station_level(T.z))
+							continue
+						SEND_SOUND(M, sound('sound/effects/powerloss.ogg'))
 			if("whiteout")
 				SSblackbox.record_feedback("tally", "admin_secrets_fun_used", 1, "Fix All Lights")
 				message_admins("[key_name_admin(usr)] fixed all lights", 1)
