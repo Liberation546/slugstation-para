@@ -16,10 +16,10 @@ jobs:
     - name: Branch
       run: |
         git remote add upstream https://github.com/ParadiseSS13/Paradise.git
-        git pull upstream
+        git pull upstream/master
         git branch -f paradise-update
         git checkout paradise-update
-        git reset --hard origin/master
+        git reset --hard upstream/master
 
     - name: Commit and Push
       run: |
