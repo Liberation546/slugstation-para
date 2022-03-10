@@ -16,7 +16,7 @@ jobs:
     - name: Branch
       run: |
         git remote add upstream https://github.com/ParadiseSS13/Paradise.git
-        git fetch upstream/master
+        git fetch upstream
         git pull upstream/master
         git branch -f paradise-update
         git checkout paradise-update
