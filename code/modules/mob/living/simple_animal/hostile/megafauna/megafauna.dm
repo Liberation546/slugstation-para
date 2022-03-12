@@ -89,7 +89,7 @@
 			if(!client && ranged && ranged_cooldown <= world.time)
 				OpenFire()
 		else
-			devour(L)
+			return
 
 /mob/living/simple_animal/hostile/megafauna/onShuttleMove(turf/oldT, turf/T1, rotation, mob/caller)
 	var/turf/oldloc = loc
@@ -101,17 +101,6 @@
 		([ADMIN_FLW(src,"FLW")]) \
 		moved via shuttle from ([oldloc.x], [oldloc.y], [oldloc.z]) to \
 		([newloc.x], [newloc.y], [newloc.z])[caller ? " called by [ADMIN_LOOKUP(caller)]" : ""]")
-
-/mob/living/simple_animal/hostile/megafauna/proc/devour(mob/living/L)
-	if(!L)
-		return FALSE
-	visible_message(
-		"<span class='danger'>[src] devours [L]!</span>",
-		"<span class='userdanger'>You feast on [L], restoring your health!</span>")
-	if(!is_station_level(z) || client) //NPC monsters won't heal while on station
-		adjustBruteLoss(-L.maxHealth/2)
-	L.gib()
-	return TRUE
 
 /mob/living/simple_animal/hostile/megafauna/ex_act(severity, target)
 	switch(severity)
