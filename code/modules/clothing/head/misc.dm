@@ -506,3 +506,9 @@
 	desc = "Now just to find some maracas!"
 	icon_state = "cuban_hat"
 	item_state = "cuban_hat"
+
+/obj/item/clothing/head/scav
+	name = "scav mask"
+	desc = "How did this get here?"
+	icon_state = "scav"
+	item_state = "scav"
