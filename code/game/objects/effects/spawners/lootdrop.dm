@@ -70,6 +70,7 @@
 				/obj/item/clothing/gloves/color/black = 20,
 				/obj/item/clothing/head/hardhat = 10,
 				/obj/item/clothing/head/hardhat/red = 10,
+				/obj/item/clothing/head/scav = 5
 				/obj/item/clothing/head/that = 10,
 				/obj/item/clothing/head/ushanka = 10,
 				/obj/item/clothing/head/welding = 10,
