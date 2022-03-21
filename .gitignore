@@ -15,7 +15,6 @@
 #ignore other, specific files and folers
 *.before
 data/
-data/mode.txt
 /_maps/map_files/backup/*
 /_maps/map_files/**/backup/*
 /_maps/map_files/**/*.dmm.backup
