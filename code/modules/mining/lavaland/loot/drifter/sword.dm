@@ -1,5 +1,6 @@
 // TODO: make the outfit and sword, hud can be done later
 // https://discord.com/channels/826892312977473616/827315126969171968/955489825325219851
+// TODO: pull the sprite of the sword from the wiki
 
 /obj/item/melee/drifter
     name = "hard light sword"
