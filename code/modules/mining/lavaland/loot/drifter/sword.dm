@@ -9,7 +9,7 @@
 	item_state = "drifter_sword"
 	hitsound = 'sound/weapons/blade1.ogg'
 	force = 10
-	var/obj/item/gun/energy/drifter/gun
+	gun = null
 
 
 /obj/item/melee/drifter/New()
@@ -27,4 +27,4 @@
 	..()
 
 /obj/item/melee/drifter/attack_self(mob/user)
-	user.
+	return

@@ -1,8 +1,3 @@
-GLOBAL_LIST_INIT(gearbit_recipes, list ( \
-	new /datum/stack_recipe("ammo upgrade", /obj/item/upgrade/ammo, 3, time = 10), \
-	null,
-	))
-
 /obj/item/stack/gearbit
 	name = "gearbit"
 	desc = "A strange piece of technology. Can be packaged into gearbit packs."
@@ -11,7 +6,10 @@ GLOBAL_LIST_INIT(gearbit_recipes, list ( \
 /obj/item/stack/gearbit/pack
 	name = "gearbit pack"
 	desc = "A bundle of odd tech. Can be used to forge upgrades."
-	recipes = GLOB.gearbit_recipes
+	recipes = list ( \
+		new /datum/stack_recipe("ammo upgrade", /obj/item/upgrade/ammo, 3, time = 10), \
+		null,
+	)
 
 /obj/item/upgrade
 	name = "upgrade"
