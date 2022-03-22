@@ -14,6 +14,10 @@
 	armor = list(MELEE = 10, BULLET = 10, LASER = 10, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 10, ACID = 0)
 	allowed = list(/obj/item/melee/drifter)
 
+/obj/item/clothing/suit/hooded/drifter/proc/cough()
+	// TODO: add a timer for coughing
+	return
+
 /obj/item/clothing/head/hooded/drifter/hood
 	name = "drifter's outfit"
 	desc = "The hood of a drifter's outfit."

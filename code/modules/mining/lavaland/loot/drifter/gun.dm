@@ -7,7 +7,7 @@
 	icon_state = "drifter_pistol"
 	item_state = "drifter_pistol"
 	cell_type = /obj/item/stock_parts/cell/drifter
-	fire_sound = pick("drifter_pistol1","drifter_pistol2","drifter_pistol3")
+	fire_sound = "sound/weapons/gunshots/[pick("drifter_pistol1","drifter_pistol2","drifter_pistol3")].ogg"
 	can_fit_in_turrets = FALSE
 	var/sword = null
 
@@ -38,7 +38,8 @@
 
 /obj/item/ammo_casing/drifter
 	projectile_type = /obj/item/projectile/drifter
-	fire_sound = null
 
 /obj/item/projectile/drifter
+	name = "energy shot"
+	damage = 10
 	damage_type = BURN
