@@ -1,7 +1,7 @@
 /obj/item/stack/gearbit
 	name = "gearbit"
 	desc = "A strange piece of technology. Can be packaged into gearbit packs."
-	max_amount = 4
+	max_amount = 8
 
 /obj/item/stack/gearbit/pack
 	name = "gearbit pack"
@@ -13,7 +13,7 @@
 
 /obj/item/upgrade
 	name = "upgrade"
-	desc = "This is not supposed to appear. Use this on a hard light sword to convert it to gearbits."
+	desc = "This is not supposed to appear. Use this on a hard light sword to convert it to gearbit packs."
 	var/upgrade = null
 
 /obj/item/upgrade/ammo
