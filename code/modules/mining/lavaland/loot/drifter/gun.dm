@@ -6,6 +6,7 @@
 	desc = "A pistol that recharges with sword hits."
 	icon_state = "drifter_pistol"
 	item_state = "drifter_pistol"
+	resistance_flags = LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	cell_type = /obj/item/stock_parts/cell/drifter
 	fire_sound = "drifter_pistol1"
 	can_fit_in_turrets = FALSE

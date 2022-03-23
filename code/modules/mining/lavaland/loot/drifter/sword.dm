@@ -7,6 +7,7 @@
 	desc = "A sword made of blue light. How did this get here?"
 	icon_state = "drifter_sword"
 	item_state = "drifter_sword"
+	resistance_flags = LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	hitsound = 'sound/weapons/blade1.ogg'
 	force = 10
 	var/obj/item/gun/energy/drifter/gun

@@ -1,9 +1,9 @@
-/obj/item/stack/gearbit
+/obj/item/stack/drifter/gearbit
 	name = "gearbit"
 	desc = "A strange piece of technology. Can be packaged into gearbit packs."
 	max_amount = 8
 
-/obj/item/stack/gearbit/pack
+/obj/item/stack/gearbit/drifter/pack
 	name = "gearbit pack"
 	desc = "A bundle of odd tech. Can be used to forge upgrades."
 	recipes = list ( \
