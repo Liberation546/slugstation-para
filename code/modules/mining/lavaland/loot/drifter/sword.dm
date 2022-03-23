@@ -12,7 +12,6 @@
 	force = 10
 	var/obj/item/gun/energy/drifter/gun
 
-
 /obj/item/melee/drifter/New()
 	..()
 	if(!src.gun)
@@ -23,14 +22,14 @@
 /obj/item/melee/drifter/attack(mob/living/M, mob/living/user, def_zone)
 	gun = src.gun
 	if(istype(M, /mob/living))
-		if(!M.is_dead())
+		if(!M.is_dead() && !M == user)
 			gun.add_charge()
 			gun.update_icon()
 	..()
 
 /obj/item/melee/drifter/attackby(obj/item/I, mob/user, params)
 	if(!I.istype(/obj/item/upgrade))
-		return
+		..()
 	upgrade = I.upgrade
 	qdel(I)
 	if(upgrade = "ammo")
@@ -44,9 +43,6 @@
 		user.put_in_any_hand_if_possible(pistol)
 	else // uh oh! this is not a valid upgrade!
 		var/obj/item/stack/gearbit/pack/S = new(user.loc, 3) // lets refund them
-		// and give them a message about the broken upgrade
-		user.to_chat(src, "<span class='userdanger'>This upgrade is invalid! You have been given three gearbit packs as compensation. Report this to a coder!</span>")
-		CRASH("Invalid upgrade used on sword (upgrade = [upgrade]!") // then log a runtime
+		user.to_chat(src, "<span class='userdanger'>This upgrade is invalid! You have been given three gearbit packs as compensation. Report this to a coder!</span>") // and give them a message about the broken upgrade
+		CRASH("Invalid upgrade used on [src] (upgrade = [upgrade])!") // then log a runtime
 
-/obj/item/melee/drifter/attack_self(mob/user)
-	return

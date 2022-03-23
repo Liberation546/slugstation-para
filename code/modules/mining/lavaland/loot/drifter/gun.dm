@@ -12,7 +12,7 @@
 	can_fit_in_turrets = FALSE
 	var/sword = null
 
-/obj/item/gun/energy/drifter/shoot_live_shot(mob/living/user, atom/target, pointblank = FALSE, message = TRUE)
+/obj/item/gun/energy/drifter/shoot_live_shot(mob/living/user, atom/target)
 	src.fire_sound = pick("drifter_pistol1","drifter_pistol2","drifter_pistol3")
 	..()
 /obj/item/gun/energy/drifter/upgraded
