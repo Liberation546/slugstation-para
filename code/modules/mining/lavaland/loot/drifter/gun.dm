@@ -7,10 +7,13 @@
 	icon_state = "drifter_pistol"
 	item_state = "drifter_pistol"
 	cell_type = /obj/item/stock_parts/cell/drifter
-	fire_sound = pick("drifter_pistol1","drifter_pistol2","drifter_pistol3")
+	fire_sound = "drifter_pistol1"
 	can_fit_in_turrets = FALSE
 	var/sword = null
 
+/obj/item/gun/energy/drifter/shoot_live_shot(mob/living/user, atom/target, pointblank = FALSE, message = TRUE)
+	src.fire_sound = pick("drifter_pistol1","drifter_pistol2","drifter_pistol3")
+	..()
 /obj/item/gun/energy/drifter/upgraded
 	desc = "A pistol that recharges with sword hits. The capacity has been improved."
 	cell_type = /obj/item/stock_parts/cell/drifter/upgraded

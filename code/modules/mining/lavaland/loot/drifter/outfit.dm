@@ -3,7 +3,7 @@
 
 // TODO: get the worn outfit sprited and make adjustments to it
 
-/obj/item/clothing/head/hooded/drifter/hood
+/obj/item/clothing/head/drifter
 	name = "drifter's hood"
 	desc = "The hood of a drifter's outfit."
 	icon_state = "hardsuit0-syndielite"
@@ -14,14 +14,13 @@
 	allowed = list(/obj/item/melee/drifter)
 
 
-/obj/item/clothing/suit/hooded/drifter
+/obj/item/clothing/under/drifter
 	name = "drifter's outfit"
 	desc = "Once used by a drifter, it has been discarded in favor of better equipment."
 	icon_state = "hardsuit0-syndielite"
 	item_state = "drifter"
 	equip_sound = "sound/items/equip/toolbelt_equip.ogg"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
-	hoodtype = /obj/item/clothing/head/hooded/drifter
 	armor = list(MELEE = 10, BULLET = 10, LASER = 10, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 10, ACID = 0)
 	allowed = list(/obj/item/melee/drifter)
 
