@@ -1,7 +1,7 @@
 // TODO: make the outfit and sword, hud can be done later
 // https://discord.com/channels/826892312977473616/827315126969171968/955489825325219851
 
-// TODO: get the worn outfit sprited and make adjustments to it
+// TODO: add the worn sprites to the icons
 
 /obj/item/clothing/head/drifter
 	name = "drifter's hood"
@@ -24,6 +24,23 @@
 
 	return
 
+/obj/item/clothing/accessory/drifter
+	name = "drifter's cloth"
+	desc = "It looks like it can be attached to a drifter outfit."
+	icon_state = "drifter_skirt"
+	item_color = null
+	allow_duplicates = FALSE
+
+/obj/item/clothing/accessory/drifter/on_attached(obj/item/clothing/under/S, mob/user)
+	if (!istype(S, /obj/item/clothing/under/drifter))
+		return 0
+	..(S, user)
+
+/obj/item/clothing/accessory/drifter/attack(mob/living/carbon/human/H, mob/living/user)
+	if (!istype(S, /obj/item/clothing/under/drifter))
+		user.to_chat("<span class='warning'>You can't attach [src] to [H]!</span>")
+		return
+	..(H, user)
 
 /obj/item/clothing/suit/storage/drifter
 	name = "drifter's cloak"
@@ -39,9 +56,4 @@
 	pockets.storage_slots = 7 // one for every gun
 	pockets.max_w_class = WEIGHT_CLASS_NORMAL
 	pockets.max_combined_w_class = 21
-
-/obj/item/clothing/suit/storage/drifter/can_be_inserted(obj/item/I, TRUE)
-	if (!I.type in list(/obj/item/gun/energy/drifter,/obj/item/gun/energy/drifter/upgraded))
-		to_chat(usr, "<span class='warning'>[I] won't fit in [src]!</span>")
-		return 0
-	..(I)
+	pockets.can_hold = list(/obj/item/gun/energy/drifter,/obj/item/gun/energy/drifter/upgraded)e
