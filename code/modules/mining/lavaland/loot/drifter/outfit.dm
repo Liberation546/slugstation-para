@@ -56,4 +56,7 @@
 	pockets.storage_slots = 7 // one for every gun
 	pockets.max_w_class = WEIGHT_CLASS_NORMAL
 	pockets.max_combined_w_class = 21
-	pockets.can_hold = list(/obj/item/gun/energy/drifter,/obj/item/gun/energy/drifter/upgraded)e
+	pockets.can_hold = list( \
+		/obj/item/gun/energy/drifter, \
+		/obj/item/gun/energy/drifter/upgraded \
+		)
