@@ -1,5 +1,4 @@
-// TODO: make the pistol, can be summoned via an action tied to the sword maybe
-// TODO: pull the sprite of the pistol from the wiki
+// TODO: hitscan projectiles and railgun
 
 /obj/item/gun/energy/drifter
 	name = "drifter's pistol"
@@ -29,13 +28,13 @@
 	cell.give(100)
 
 /obj/item/stock_parts/cell/drifter
-	name = "hard light pistol cell"
+	name = "drifter pistol cell"
 	desc = "You probably shouldn't be seeing this."
 	charge = 600
 	maxcharge = 600
 
 /obj/item/stock_parts/cell/drifter/upgraded
-	name = "upgraded hard light pistol cell"
+	name = "upgraded drifter pistol cell"
 	desc = "You probably shouldn't be seeing this."
 	charge = 900
 	maxcharge = 900

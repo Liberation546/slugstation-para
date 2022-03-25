@@ -1,4 +1,5 @@
-/*
+// TODO: gearbit sprites
+
 /obj/item/stack/drifter/gearbit
 	name = "gearbit"
 	desc = "A strange piece of technology. Can be packaged into gearbit packs."

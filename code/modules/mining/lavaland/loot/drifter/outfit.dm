@@ -1,7 +1,6 @@
-// TODO: make the outfit and sword, hud can be done later
 // https://discord.com/channels/826892312977473616/827315126969171968/955489825325219851
 
-// TODO: add the worn sprites to the icons
+// TODO: dashing
 
 /obj/item/clothing/head/drifter
 	name = "drifter's hood"
@@ -61,4 +60,4 @@
 	pockets.can_hold = list( \
 		/obj/item/gun/energy/drifter, \
 		/obj/item/gun/energy/drifter/upgraded \
-		)
+		) //  there will be more guns in the future

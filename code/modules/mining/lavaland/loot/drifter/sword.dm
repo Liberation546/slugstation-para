@@ -26,6 +26,21 @@
 			gun.add_charge()
 			gun.update_icon()
 	..()
+	sleep(2)
+	if(M.is_dead())
+		prob(10)
+			drop_gearbit(M)
+		prob(10)
+			drop_medkit(M)
+
+/obj/item/melee/drifter/proc/drop_gearbit(mob/living/M)
+	var/obj/item/stack/drifter/gearbit/loot = new(M.loc)
+	M.visible_message("<span class='warning'>Something falls out of [M]!</span>", "<span class='warning'>A gearbit falls out of [M]!</span>")
+
+/obj/item/melee/drifter/proc/drop_medkit(mob/living/M)
+	var/obj/item/drifter/medkit/loot = new(M.loc)
+	M.visible_message("<span class='warning'>Something falls out of [M]!</span>", "<span class='warning'>A medkit falls out of [M]!</span>")
+
 
 /obj/item/melee/drifter/attackby(obj/item/I, mob/user, params)
 	if(!I.istype(/obj/item/upgrade))
