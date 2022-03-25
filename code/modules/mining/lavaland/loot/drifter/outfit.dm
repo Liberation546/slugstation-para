@@ -6,7 +6,7 @@
 /obj/item/clothing/head/drifter
 	name = "drifter's hood"
 	desc = "The hood of a drifter's outfit."
-	icon_state = "hardsuit0-syndielite"
+	icon_state = "drifter"
 	item_state = "drifter"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	armor = list(MELEE = 20, BULLET = 20, LASER = 20, ENERGY = 10, BOMB = 0, BIO = 0, RAD = 0, FIRE = 20, ACID = 0)
@@ -14,7 +14,7 @@
 /obj/item/clothing/under/drifter
 	name = "drifter's outfit"
 	desc = "Once used by a drifter, it has been discarded in favor of better equipment."
-	icon_state = "hardsuit0-syndielite"
+	icon_state = "drifter"
 	item_state = "drifter"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	armor = list(MELEE = 20, BULLET = 20, LASER = 20, ENERGY = 10, BOMB = 0, BIO = 0, RAD = 0, FIRE = 20, ACID = 0)
@@ -24,6 +24,7 @@
 
 	return
 
+/*
 /obj/item/clothing/accessory/drifter
 	name = "drifter's cloth"
 	desc = "It looks like it can be attached to a drifter outfit."
@@ -41,11 +42,12 @@
 		user.to_chat("<span class='warning'>You can't attach [src] to [H]!</span>")
 		return
 	..(H, user)
+*/
 
 /obj/item/clothing/suit/storage/drifter
 	name = "drifter's cloak"
 	desc = "A cloak discarded by a drifter. It has pockets for weapons."
-	icon_state = "capmantle"
+	icon_state = "drifter"
 	item_state = "drifter"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	armor = list(MELEE = 20, BULLET = 20, LASER = 20, ENERGY = 10, BOMB = 0, BIO = 0, RAD = 0, FIRE = 20, ACID = 0)
