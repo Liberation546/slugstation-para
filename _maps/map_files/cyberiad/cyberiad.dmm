@@ -5863,7 +5863,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "whitered"
@@ -5873,7 +5872,6 @@
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/reagent_containers/dropper,
 /obj/item/reagent_containers/dropper/precision,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "aqG" = (
@@ -49553,7 +49551,6 @@
 /obj/structure/sink{
 	pixel_y = 25
 	},
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cep" = (
@@ -49567,7 +49564,6 @@
 "cer" = (
 /obj/structure/bed,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "ces" = (
@@ -50434,7 +50430,6 @@
 	pixel_x = -28
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cfZ" = (
@@ -51183,14 +51178,12 @@
 	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "chG" = (
 /obj/structure/table/glass,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "whitered"
@@ -52786,7 +52779,6 @@
 /area/maintenance/asmaint)
 "ckL" = (
 /obj/structure/bed,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "ckM" = (
@@ -53395,7 +53387,6 @@
 "cmd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whitered"
@@ -53413,7 +53404,6 @@
 "cmf" = (
 /obj/machinery/iv_drip,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cmg" = (
@@ -54990,10 +54980,10 @@
 	},
 /area/hallway/primary/aft)
 "cpj" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/parrot/Poly,
+/obj/effect/spawner/window/reinforced,
+/obj/item/aiModule/toyAI,
 /turf/simulated/floor/plating,
-/area/maintenance/asmaint)
+/area/maintenance/apmaint)
 "cpk" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -57627,12 +57617,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
 "ctV" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/mob/living/simple_animal/parrot/Poly,
-/turf/simulated/floor/plating,
-/area/maintenance/asmaint)
+/obj/structure/lattice,
+/obj/item/spellbook/oneuse/summonitem,
+/turf/space,
+/area/space/nearstation)
 "ctX" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -60010,9 +59998,8 @@
 	},
 /area/construction)
 "cyE" = (
-/obj/effect/spawner/window/reinforced,
-/obj/item/aiModule/toyAI,
-/turf/simulated/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/wall,
 /area/maintenance/apmaint)
 "cyF" = (
 /obj/structure/cable{
@@ -60982,7 +60969,6 @@
 "cAE" = (
 /obj/structure/closet,
 /obj/item/card/id,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cAG" = (
@@ -61501,7 +61487,6 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cBJ" = (
@@ -62241,7 +62226,6 @@
 "cDh" = (
 /obj/structure/table,
 /obj/item/pda,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cDi" = (
@@ -62309,7 +62293,6 @@
 /area/maintenance/asmaint)
 "cDp" = (
 /obj/item/lipstick/jade,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cDq" = (
@@ -64444,12 +64427,10 @@
 /area/maintenance/asmaint)
 "cIt" = (
 /obj/machinery/chem_master,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cIu" = (
 /obj/machinery/constructable_frame/machine_frame,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cIv" = (
@@ -64966,7 +64947,6 @@
 /area/atmos/control)
 "cJz" = (
 /obj/machinery/chem_heater,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cJA" = (
@@ -65521,7 +65501,6 @@
 /area/maintenance/asmaint)
 "cKG" = (
 /obj/structure/closet/secure_closet/reagents,
-/mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cKI" = (
@@ -79971,19 +79950,6 @@
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/r_wall,
 /area/security/checkpoint/science)
-"eOR" = (
-/obj/structure/table/wood,
-/obj/item/spellbook/oneuse/sacredflame{
-	name = "book of trolling"
-	},
-/obj/item/spellbook/oneuse/summonitem{
-	name = "how to be a big shot"
-	},
-/obj/item/toy/plushie/greyplushie,
-/obj/item/toy/plushie/nukeplushie,
-/obj/item/toy/plushie/lizardplushie,
-/turf/simulated/floor/wood,
-/area/maintenance/apmaint)
 "ePP" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/grass,
@@ -80167,11 +80133,6 @@
 /obj/effect/decal/warning_stripes/north,
 /turf/simulated/floor/engine,
 /area/engine/engineering)
-"fvh" = (
-/obj/structure/chair/stool,
-/mob/living/simple_animal/parrot/Poly,
-/turf/simulated/floor/plating,
-/area/maintenance/asmaint)
 "fAw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow,
 /obj/machinery/tcomms/core/station,
@@ -80882,15 +80843,6 @@
 	icon_state = "white"
 	},
 /area/medical/medbay2)
-"ixn" = (
-/obj/structure/table/wood,
-/obj/item/abductor_baton{
-	name = "grofit taker"
-	},
-/obj/item/toy/plushie/ipcplushie,
-/obj/item/aiModule/toyAI,
-/turf/simulated/floor/wood,
-/area/maintenance/apmaint)
 "iyj" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -81778,6 +81730,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
+"mbe" = (
+/obj/structure/table/wood,
+/obj/item/abductor_baton{
+	name = "grofit taker"
+	},
+/obj/item/toy/plushie/ipcplushie,
+/obj/item/aiModule/toyAI,
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "mbK" = (
 /obj/structure/table/reinforced,
 /obj/item/shard{
@@ -81791,10 +81752,22 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint2)
 "meF" = (
-/obj/structure/lattice,
-/obj/item/spellbook/oneuse/summonitem,
-/turf/space,
-/area/space/nearstation)
+/obj/structure/safe{
+	number_of_tumblers = 1
+	},
+/obj/item/melee/energy/sword/saber/green{
+	desc = "only wieldable by true sigma male";
+	name = "Zsaber"
+	},
+/obj/item/clothing/head/hgpiratecap,
+/obj/item/clothing/suit/hgpirate,
+/obj/item/gun/projectile/revolver/doublebarrel/improvised/cane,
+/obj/item/organ/internal/heart/gland/ventcrawling,
+/obj/item/autosurgeon,
+/obj/item/clothing/gloves/color/black/thief,
+/obj/item/clothing/gloves/color/yellow/power,
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "mkE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -81927,9 +81900,6 @@
 	icon_state = "yellowcorner"
 	},
 /area/hallway/primary/aft)
-"mSf" = (
-/turf/space,
-/area/maintenance/apmaint)
 "mSr" = (
 /obj/structure/decorative_structures/flammable/grandfather_clock,
 /turf/simulated/floor/transparent/glass/reinforced,
@@ -82098,6 +82068,19 @@
 	icon_state = "freezerfloor"
 	},
 /area/maintenance)
+"nPd" = (
+/obj/structure/table/wood,
+/obj/item/spellbook/oneuse/sacredflame{
+	name = "book of trolling"
+	},
+/obj/item/spellbook/oneuse/summonitem{
+	name = "how to be a big shot"
+	},
+/obj/item/toy/plushie/greyplushie,
+/obj/item/toy/plushie/nukeplushie,
+/obj/item/toy/plushie/lizardplushie,
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "nPw" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
@@ -82342,10 +82325,6 @@
 	icon_state = "dark"
 	},
 /area/tcommsat/chamber)
-"oQE" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/wall,
-/area/maintenance/apmaint)
 "oSI" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -82555,6 +82534,14 @@
 	icon_state = "white"
 	},
 /area/maintenance)
+"pZu" = (
+/obj/structure/table/wood,
+/obj/item/gun/energy/gun/blueshield{
+	name = "HIS DIVINE LIGHT"
+	},
+/obj/item/flashlight/lamp/green,
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "pZO" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
@@ -82705,9 +82692,9 @@
 /turf/simulated/floor/plating,
 /area/maintenance/aft2)
 "qHe" = (
-/mob/living/simple_animal/parrot/Poly,
-/turf/simulated/floor/plating,
-/area/maintenance/asmaint)
+/obj/structure/falsewall,
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "qHr" = (
 /obj/machinery/door/airlock/external,
 /obj/structure/firelock_frame/heavy,
@@ -83286,14 +83273,6 @@
 /obj/effect/spawner/random_spawners/blood_maybe,
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
-"tGm" = (
-/obj/structure/table/wood,
-/obj/item/gun/energy/gun/blueshield{
-	name = "HIS DIVINE LIGHT"
-	},
-/obj/item/flashlight/lamp/green,
-/turf/simulated/floor/wood,
-/area/maintenance/apmaint)
 "tGO" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating,
@@ -83478,24 +83457,6 @@
 	icon_state = "red"
 	},
 /area/security/prisonlockers)
-"ujd" = (
-/obj/structure/safe{
-	number_of_tumblers = 1
-	},
-/obj/item/melee/energy/sword/saber/green{
-	desc = "only wieldable by true sigma male";
-	name = "Zsaber"
-	},
-/obj/item/clothing/head/hgpiratecap,
-/obj/item/clothing/suit/hgpirate,
-/obj/item/gun/projectile/revolver/doublebarrel/improvised/cane,
-/obj/item/gun/magic/hook,
-/obj/item/organ/internal/heart/gland/ventcrawling,
-/obj/item/autosurgeon,
-/obj/item/clothing/gloves/color/black/thief,
-/obj/item/clothing/gloves/color/yellow/power,
-/turf/simulated/floor/wood,
-/area/maintenance/apmaint)
 "ujA" = (
 /obj/machinery/computer/card,
 /turf/simulated/floor/fakespace,
@@ -83570,10 +83531,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/security/prisonlockers)
-"utV" = (
-/obj/machinery/autolathe/upgraded/gamma,
-/turf/simulated/floor/wood,
-/area/maintenance/apmaint)
 "uuo" = (
 /turf/simulated/floor/fakespace,
 /area/crew_quarters/captain)
@@ -83675,10 +83632,6 @@
 	},
 /turf/simulated/floor/engine,
 /area/engine/engineering)
-"uYL" = (
-/obj/structure/falsewall,
-/turf/simulated/floor/wood,
-/area/maintenance/apmaint)
 "uZb" = (
 /obj/effect/spawner/window/reinforced,
 /obj/structure/cable{
@@ -83817,6 +83770,10 @@
 	icon_state = "red"
 	},
 /area/security/prisonlockers)
+"vFS" = (
+/obj/machinery/autolathe/upgraded/gamma,
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "vFZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -100700,7 +100657,7 @@ aab
 aaa
 aaa
 aMr
-meF
+ctV
 aab
 aaa
 cxY
@@ -102495,7 +102452,7 @@ aaa
 aaa
 aaa
 aaa
-cyE
+cpj
 coL
 coL
 cqF
@@ -104045,8 +104002,8 @@ ctU
 cgQ
 cgQ
 cgQ
-uYL
-oQE
+qHe
+cyE
 cgQ
 cgQ
 cgQ
@@ -104299,11 +104256,11 @@ aaa
 aab
 cgQ
 ctU
-oQE
+cyE
 cvp
 sZe
-eOR
-utV
+nPd
+vFS
 sZe
 sZe
 cgQ
@@ -104816,9 +104773,9 @@ ctU
 cgQ
 sZe
 sZe
-tGm
+pZu
 xWX
-ixn
+mbe
 sZe
 cgQ
 cEI
@@ -105328,7 +105285,7 @@ aab
 cgQ
 ctU
 cgQ
-ujd
+meF
 sZe
 ubb
 ubb
@@ -105844,7 +105801,7 @@ jfb
 cgQ
 cgQ
 cgQ
-uYL
+qHe
 hum
 cgQ
 cgQ
@@ -107902,7 +107859,7 @@ cgQ
 lPK
 coL
 hSm
-mSf
+coL
 cDS
 cgQ
 cEM
@@ -125628,8 +125585,8 @@ chF
 ciY
 ckJ
 cmd
-cpj
-qHe
+cga
+csL
 ciY
 cwY
 csL
@@ -125880,14 +125837,14 @@ bXW
 caZ
 bWg
 cer
-cpj
-cpj
+cga
+cga
 cja
 ckL
-cpj
-cpj
-cpj
-ciY
+cga
+cga
+cga
+csL
 cxb
 cxJ
 cAb
@@ -126137,13 +126094,13 @@ bXQ
 caY
 bWg
 ceq
-ctV
+cfZ
 chG
 ciZ
-cpj
+cga
 cmf
 aqE
-cpj
+cga
 ciY
 cpF
 cxD
@@ -127442,9 +127399,9 @@ aab
 aaa
 aaa
 cBP
-qHe
-qHe
-qHe
+csL
+csL
+csL
 cDp
 ciY
 cEF
@@ -127702,7 +127659,7 @@ cBP
 cAE
 cBI
 cDh
-qHe
+csL
 ciY
 cEE
 cfZ
@@ -128483,8 +128440,8 @@ cIb
 cIu
 cJz
 cKG
-qHe
-qHe
+csL
+csL
 cBP
 aaa
 aaa
@@ -128738,9 +128695,9 @@ cJK
 cJK
 cIb
 cIt
-fvh
-qHe
-qHe
+cIr
+csL
+csL
 aqF
 cBP
 aaa
