@@ -49837,6 +49837,16 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/central/se)
+"ceX" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	tag = ""
+	},
+/turf/space,
+/area/solar/auxstarboard)
 "cfb" = (
 /turf/simulated/floor/plasteel,
 /area/quartermaster/miningdock)
@@ -77759,6 +77769,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/mob/living/simple_animal/bot/secbot/griefsky/toy,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "dark"
@@ -77773,6 +77784,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/mob/living/simple_animal/bot/secbot/griefsky/toy,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "dark"
@@ -77796,6 +77808,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+/mob/living/simple_animal/bot/secbot/griefsky/toy,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "dark"
@@ -77824,6 +77837,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/mob/living/simple_animal/bot/secbot/griefsky/toy,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "dark"
@@ -79030,6 +79044,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/mob/living/simple_animal/bot/secbot/griefsky/toy,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "dark"
@@ -79887,10 +79902,19 @@
 	icon_state = "yellowcorner"
 	},
 /area/engine/engineering)
-"eDo" = (
-/obj/effect/spawner/window/reinforced/plasma,
+"eBO" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
 /turf/space,
-/area/toxins/misc_lab)
+/area/solar/auxstarboard)
 "eDs" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -80005,19 +80029,6 @@
 /obj/effect/decal/cleanable/ash,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint2)
-"eSL" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/space,
-/area/solar/auxstarboard)
 "eTE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/wall,
@@ -80326,6 +80337,13 @@
 	},
 /turf/simulated/wall,
 /area/maintenance/asmaint2)
+"fTf" = (
+/mob/living/simple_animal/bot/secbot/griefsky/toy,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "dark"
+	},
+/area/turret_protected/ai)
 "fVg" = (
 /obj/machinery/suit_storage_unit/security,
 /turf/simulated/floor/plasteel{
@@ -80382,10 +80400,6 @@
 /obj/effect/decal/warning_stripes/north,
 /turf/simulated/floor/engine,
 /area/engine/engineering)
-"ggD" = (
-/obj/item/clothing/suit/wizrobe/red,
-/turf/simulated/floor/engine,
-/area/toxins/test_chamber)
 "ggO" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
@@ -80607,16 +80621,6 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/engine/engineering)
-"gMG" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable,
-/turf/space,
-/area/solar/auxstarboard)
 "gMZ" = (
 /obj/machinery/door/poddoor{
 	density = 0;
@@ -80650,17 +80654,12 @@
 /obj/structure/lattice/catwalk,
 /turf/space,
 /area/space/nearstation)
-"gXV" = (
-/obj/effect/decal/cleanable/ash,
-/turf/simulated/floor/engine,
-/area/toxins/test_chamber)
-"gYn" = (
+"gUX" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4";
-	tag = ""
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/space,
 /area/solar/auxstarboard)
@@ -80686,6 +80685,10 @@
 /obj/effect/decal/warning_stripes/west,
 /turf/simulated/floor/engine,
 /area/engine/engineering)
+"hcz" = (
+/obj/effect/spawner/window/reinforced/plasma,
+/turf/space,
+/area/toxins/misc_lab)
 "hmh" = (
 /obj/structure/lattice,
 /turf/space,
@@ -81425,6 +81428,20 @@
 /obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
 /area/bridge)
+"kwM" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/space,
+/area/solar/starboard)
 "kBM" = (
 /obj/structure/sign/poster/official/kill_syndicate,
 /turf/simulated/wall/r_wall,
@@ -82059,6 +82076,10 @@
 /obj/effect/spawner/window/reinforced/plasma,
 /turf/simulated/floor/plating,
 /area/engine/supermatter)
+"nmB" = (
+/obj/item/clothing/suit/wizrobe/red,
+/turf/simulated/floor/engine,
+/area/toxins/test_chamber)
 "noT" = (
 /obj/effect/decal/warning_stripes/northeastcorner,
 /obj/structure/closet/wardrobe/mixed,
@@ -82308,20 +82329,6 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/plasteel,
 /area/crew_quarters/dorms)
-"oyV" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/space,
-/area/solar/starboard)
 "ozu" = (
 /obj/structure/rack,
 /obj/item/gun/energy/disabler,
@@ -82370,6 +82377,13 @@
 	},
 /turf/simulated/wall,
 /area/medical/medbay2)
+"oJP" = (
+/obj/mecha/combat/durand/loaded,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "dark"
+	},
+/area/turret_protected/ai)
 "oLG" = (
 /turf/simulated/floor/transparent/glass/reinforced,
 /area/crew_quarters/bar)
@@ -82635,15 +82649,6 @@
 /obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
 /area/assembly/assembly_line)
-"qdV" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/space,
-/area/solar/auxstarboard)
 "qhK" = (
 /obj/structure/chair/sofa/right{
 	dir = 1;
@@ -82826,6 +82831,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel,
 /area/crew_quarters/dorms)
+"qTX" = (
+/obj/effect/decal/cleanable/ash,
+/turf/simulated/floor/engine,
+/area/toxins/test_chamber)
 "qUv" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
 /turf/space,
@@ -82880,6 +82889,16 @@
 /obj/effect/decal/warning_stripes/northwest,
 /turf/simulated/floor/engine,
 /area/engine/engineering)
+"rnC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable,
+/turf/space,
+/area/solar/auxstarboard)
 "rom" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -82976,13 +82995,6 @@
 /obj/effect/spawner/random_spawners/grille_maybe,
 /turf/simulated/floor/plating,
 /area/maintenance/aft2)
-"rRT" = (
-/obj/mecha/combat/durand/loaded,
-/turf/simulated/floor/plasteel{
-	dir = 5;
-	icon_state = "dark"
-	},
-/area/turret_protected/ai)
 "rTy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -83208,6 +83220,16 @@
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/r_wall,
 /area/security/checkpoint/science)
+"sQC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/mob/living/simple_animal/bot/secbot/griefsky/toy,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "dark"
+	},
+/area/turret_protected/ai)
 "sXD" = (
 /obj/machinery/firealarm{
 	name = "north bump";
@@ -83304,6 +83326,15 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/security/prisonlockers)
+"txs" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/space,
+/area/solar/auxstarboard)
 "tAm" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/manifold/visible{
@@ -83995,25 +84026,6 @@
 	icon_state = "dark"
 	},
 /area/engine/engineering)
-"wqd" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/space,
-/area/solar/starboard)
 "wsY" = (
 /obj/structure/table,
 /obj/item/storage/box/prisoner,
@@ -84038,6 +84050,25 @@
 /obj/structure/lattice,
 /turf/simulated/wall,
 /area/maintenance/asmaint2)
+"wuW" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/space,
+/area/solar/starboard)
 "wxp" = (
 /obj/machinery/alarm{
 	name = "north bump";
@@ -84097,6 +84128,10 @@
 /obj/machinery/status_display,
 /turf/simulated/wall/r_wall,
 /area/engine/supermatter)
+"wIx" = (
+/mob/living/simple_animal/bot/secbot/griefsky/toy,
+/turf/simulated/floor/bluegrid,
+/area/turret_protected/ai)
 "wKX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -84246,15 +84281,6 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/space,
 /area/space/nearstation)
-"xEG" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/space,
-/area/solar/auxstarboard)
 "xGn" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -120629,7 +120655,7 @@ drg
 dro
 drt
 drv
-dry
+wIx
 dnr
 dny
 dnz
@@ -120886,7 +120912,7 @@ drf
 drq
 dnl
 drv
-drE
+fTf
 dnw
 drQ
 drN
@@ -121398,10 +121424,10 @@ dqw
 dqw
 dnc
 dni
-rRT
+oJP
 drv
-drE
-dni
+fTf
+sQC
 drR
 drN
 drN
@@ -121657,7 +121683,7 @@ drg
 dnh
 drA
 drv
-dry
+wIx
 drK
 drB
 dnA
@@ -125624,7 +125650,7 @@ apn
 apn
 ann
 ann
-gYn
+ceX
 azU
 awQ
 axq
@@ -125881,8 +125907,8 @@ apq
 apq
 aab
 aab
-xEG
-eSL
+txs
+eBO
 awR
 aab
 aab
@@ -126139,7 +126165,7 @@ aaa
 aaa
 aab
 aab
-qdV
+gUX
 aab
 aab
 aab
@@ -126396,7 +126422,7 @@ aaa
 aaa
 aab
 aaa
-qdV
+gUX
 aaa
 aaa
 aaa
@@ -126653,7 +126679,7 @@ app
 app
 app
 aaa
-qdV
+gUX
 aab
 aaa
 aaa
@@ -126910,7 +126936,7 @@ apn
 apn
 apn
 ann
-gMG
+rnC
 aab
 aaa
 aab
@@ -127167,7 +127193,7 @@ apq
 apq
 apq
 aab
-qdV
+gUX
 aab
 aab
 aaa
@@ -127424,7 +127450,7 @@ aaa
 aaa
 aab
 aab
-qdV
+gUX
 aaa
 aab
 doE
@@ -127681,7 +127707,7 @@ aaa
 aaa
 aab
 aab
-qdV
+gUX
 aaa
 aaa
 azb
@@ -127938,7 +127964,7 @@ app
 app
 app
 aab
-qdV
+gUX
 aaa
 aaa
 doE
@@ -128195,7 +128221,7 @@ apn
 apn
 apn
 ann
-gMG
+rnC
 aaa
 aaa
 aaa
@@ -128452,7 +128478,7 @@ apq
 apq
 apq
 aab
-qdV
+gUX
 aaa
 aaa
 aGX
@@ -128709,7 +128735,7 @@ aaa
 aaa
 aab
 aab
-qdV
+gUX
 aaa
 aaa
 aGX
@@ -128966,7 +128992,7 @@ aaa
 aaa
 aab
 aab
-qdV
+gUX
 aaa
 aaa
 aHN
@@ -129223,7 +129249,7 @@ app
 app
 app
 aab
-qdV
+gUX
 aaa
 aaa
 aHN
@@ -133414,7 +133440,7 @@ cDs
 cEu
 cFJ
 cID
-eDo
+hcz
 cLj
 cMm
 cLe
@@ -133673,7 +133699,7 @@ cHo
 cIH
 cJT
 cLe
-gXV
+qTX
 cNu
 cMT
 cPA
@@ -133930,7 +133956,7 @@ cHp
 cIF
 cJR
 cLl
-ggD
+nmB
 cLe
 cLe
 cPz
@@ -134996,11 +135022,11 @@ ddE
 ddE
 ddN
 ddN
-wqd
+wuW
 ddN
 ddN
 ddN
-oyV
+kwM
 ddN
 ded
 ddE
