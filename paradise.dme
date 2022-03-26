@@ -2514,6 +2514,7 @@
 #include "code\modules\surgery\organs\subtypes\unathi.dm"
 #include "code\modules\surgery\organs\subtypes\vox.dm"
 #include "code\modules\surgery\organs\subtypes\vulpkanin.dm"
+#include "code\modules\surgery\organs\subtypes\wooden.dm"
 #include "code\modules\surgery\organs\subtypes\wryn.dm"
 #include "code\modules\surgery\organs\subtypes\xenos.dm"
 #include "code\modules\telesci\bscrystal.dm"
