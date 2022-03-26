@@ -7,13 +7,15 @@
 	item_state = "drifter_pistol"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	cell_type = /obj/item/stock_parts/cell/drifter
+	ammo_type = list(/obj/item/ammo_casing/energy/drifter)
 	fire_sound = "drifter_pistol1"
+	fire_sound_pitch = FALSE
 	can_fit_in_turrets = FALSE
 	var/sword = null
 
 /obj/item/gun/energy/drifter/shoot_live_shot(mob/living/user, atom/target)
-	src.fire_sound = pick("drifter_pistol1","drifter_pistol2","drifter_pistol3")
-	..()
+	src.fire_sound = pick('sound/weapons/gunshots/drifter_pistol1.ogg','sound/weapons/gunshots/drifter_pistol2.ogg','sound/weapons/gunshots/drifter_pistol3.ogg')
+	..(user, target)
 /obj/item/gun/energy/drifter/upgraded
 	desc = "A pistol that recharges with sword hits. The capacity has been improved."
 	cell_type = /obj/item/stock_parts/cell/drifter/upgraded
@@ -39,10 +41,12 @@
 	charge = 900
 	maxcharge = 900
 
-/obj/item/ammo_casing/drifter
+/obj/item/ammo_casing/energy/drifter
 	projectile_type = /obj/item/projectile/drifter
+	fire_sound = null
 
 /obj/item/projectile/drifter
 	name = "energy shot"
-	damage = 10
+	icon_state = "drifter_pistol"
+	damage = 20
 	damage_type = BURN
