@@ -1061,3 +1061,9 @@
 	w_class = WEIGHT_CLASS_TINY
 	flags = BLOCKHAIR
 	flags_inv = HIDEGLOVES|HIDEEARS|HIDEFACE
+
+/obj/item/clothing/suit/karl
+	name = "mint colored dress"
+	desc = "It smells faintly of space cats."
+	icon_state = "karl"
+	item_state = "karl"
