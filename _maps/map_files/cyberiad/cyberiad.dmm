@@ -49794,6 +49794,9 @@
 	name = "east bump";
 	pixel_x = 24
 	},
+/mob/living/simple_animal/pet/penguin/eldrich{
+	name = "the entity"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
 	},
@@ -57616,11 +57619,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
-"ctV" = (
-/obj/structure/lattice,
-/obj/item/spellbook/oneuse/summonitem,
-/turf/space,
-/area/space/nearstation)
 "ctX" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -59007,15 +59005,10 @@
 /area/maintenance/incinerator)
 "cwz" = (
 /obj/structure/table/wood,
-/mob/living/simple_animal/diona{
-	name = "pibu"
-	},
+/obj/item/slimepotion/speed,
+/obj/item/paper_bin,
+/obj/item/pen/multi/fountain,
 /turf/simulated/floor/wood,
-/area/maintenance/apmaint)
-"cwD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/random_spawners/cobweb_left_rare,
-/turf/simulated/floor/plating,
 /area/maintenance/apmaint)
 "cwF" = (
 /obj/structure/closet/wardrobe/pjs,
@@ -61263,10 +61256,6 @@
 	icon_state = "floorgrime"
 	},
 /area/maintenance/incinerator)
-"cBo" = (
-/obj/machinery/hydroponics/soil,
-/turf/simulated/floor/plating,
-/area/maintenance/apmaint)
 "cBp" = (
 /obj/machinery/light_switch{
 	dir = 8;
@@ -62550,6 +62539,7 @@
 	dir = 1;
 	name = "tatty old sofa"
 	},
+/obj/item/toy/plushie/ipcplushie,
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
 "cDR" = (
@@ -62846,27 +62836,9 @@
 	icon_state = "white"
 	},
 /area/toxins/misc_lab)
-"cEv" = (
-/obj/effect/spawner/random_spawners/blood_often,
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken"
-	},
-/area/maintenance/aft2)
 "cEw" = (
-/obj/structure/rack{
-	dir = 1
-	},
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/reagent_containers/food/drinks/bottle/whiskey,
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/effect/spawner/random_spawners/cobweb_left_rare,
-/turf/simulated/floor/plating,
+/obj/structure/dresser,
+/turf/simulated/floor/carpet,
 /area/maintenance/aft2)
 "cEx" = (
 /obj/effect/spawner/random_spawners/fungus_probably,
@@ -62925,20 +62897,12 @@
 	},
 /area/toxins/xenobiology)
 "cEI" = (
-/obj/structure/table/reinforced,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/maintenance/two{
-	color = null
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/carpet,
 /area/maintenance/aft2)
 "cEJ" = (
-/obj/structure/chair/stool/bar,
-/mob/living/simple_animal/mouse,
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken"
-	},
-/area/maintenance/aft2)
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "cEK" = (
 /turf/simulated/floor/wood,
 /area/maintenance/aft2)
@@ -62978,13 +62942,14 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint2)
 "cFe" = (
-/obj/item/cultivator,
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 12
+/mob/living/simple_animal/diona{
+	name = "Pibu"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/obj/item/clothing/accessory/petcollar,
+/obj/structure/bed/dogbed{
+	name = "Pibu's bed"
+	},
+/turf/simulated/floor/wood,
 /area/maintenance/apmaint)
 "cFf" = (
 /obj/structure/disposalpipe/junction{
@@ -63304,31 +63269,30 @@
 	},
 /area/toxins/misc_lab)
 "cFK" = (
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken"
+/obj/structure/chair/comfy/teal{
+	dir = 8
 	},
-/area/maintenance/aft2)
+/turf/simulated/floor/carpet/blue,
+/area/maintenance/apmaint)
 "cFL" = (
-/obj/structure/table/reinforced,
-/obj/item/phone{
-	attack_verb = list("bounced a check off","checked-out","tipped");
-	desc = "Also known as a cash register, or, more commonly, \"robbery magnet\". It's old and rusty, clearly non-functional and decorative only.";
-	icon = 'icons/obj/machines/pos.dmi';
-	icon_state = "pos";
-	name = "point of sale"
+/obj/structure/table/wood,
+/obj/item/toy/character/lich,
+/obj/item/clothing/head/chicken{
+	desc = "do you like hurting people?";
+	name = "Richard"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/carpet,
 /area/maintenance/aft2)
 "cFM" = (
-/obj/structure/table/wood/poker,
-/obj/item/deck/cards,
-/turf/simulated/floor/plating,
-/area/maintenance/aft2)
+/obj/structure/falsewall,
+/turf/simulated/wall,
+/area/maintenance/apmaint)
 "cFN" = (
-/obj/structure/table/wood/poker,
-/turf/simulated/floor/wood{
-	broken = 1;
-	icon_state = "wood-broken"
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
 	},
 /area/maintenance/aft2)
 "cFP" = (
@@ -63383,12 +63347,8 @@
 	},
 /area/toxins/misc_lab)
 "cFX" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken3"
-	},
+/obj/structure/mineral_door/wood,
+/turf/simulated/floor/carpet,
 /area/maintenance/aft2)
 "cFY" = (
 /obj/structure/window/reinforced,
@@ -63644,15 +63604,45 @@
 	},
 /area/toxins/xenobiology)
 "cGC" = (
-/obj/effect/spawner/random_spawners/blood_often,
-/turf/simulated/floor/plating,
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
+/turf/simulated/floor/carpet,
 /area/maintenance/aft2)
 "cGD" = (
-/turf/simulated/floor/wood{
-	broken = 1;
-	icon_state = "wood-broken"
-	},
-/area/maintenance/aft2)
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
+/obj/item/reagent_containers/food/snacks/meatballspaghetti,
+/obj/item/reagent_containers/food/snacks/meatballspaghetti,
+/obj/item/reagent_containers/food/snacks/meatballspaghetti,
+/obj/item/reagent_containers/food/snacks/meatballspaghetti,
+/obj/item/reagent_containers/food/snacks/meatballspaghetti,
+/obj/item/reagent_containers/food/snacks/meatballspaghetti,
+/obj/item/reagent_containers/food/snacks/meatballspaghetti,
+/obj/item/reagent_containers/food/snacks/meatballspaghetti,
+/obj/item/reagent_containers/food/snacks/meatballspaghetti,
+/obj/item/reagent_containers/food/drinks/bottle/molotov,
+/obj/structure/closet/secure_closet/guncabinet,
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "cGE" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood{
@@ -64063,9 +64053,18 @@
 	},
 /area/toxins/xenobiology)
 "cHB" = (
-/obj/effect/spawner/random_spawners/blood_maybe,
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken3"
+/obj/machinery/door/window/eastright{
+	base_state = "left";
+	dir = 1;
+	icon_state = "left";
+	name = "Shower"
+	},
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/item/soap/syndie,
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
 	},
 /area/maintenance/aft2)
 "cHC" = (
@@ -64611,9 +64610,10 @@
 /turf/simulated/wall/rust,
 /area/maintenance/aft2)
 "cIK" = (
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken7"
+/obj/structure/bed/dogbed{
+	name = "Pibu's bed"
 	},
+/turf/simulated/floor/carpet,
 /area/maintenance/aft2)
 "cIL" = (
 /obj/structure/closet/l3closet/scientist,
@@ -65165,9 +65165,9 @@
 /turf/simulated/floor/engine,
 /area/toxins/misc_lab)
 "cJV" = (
-/obj/item/chair/stool,
-/turf/simulated/floor/plating,
-/area/maintenance/aft2)
+/obj/structure/mineral_door/wood,
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "cJZ" = (
 /turf/simulated/wall,
 /area/hallway/primary/aft)
@@ -79928,9 +79928,20 @@
 /turf/simulated/wall,
 /area/maintenance/fore)
 "eLB" = (
-/obj/item/seeds/potato,
-/turf/simulated/floor/plating,
-/area/maintenance/apmaint)
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/maintenance/aft2)
 "eMw" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -80029,10 +80040,30 @@
 /turf/simulated/floor/plating,
 /area/maintenance/aft)
 "fcH" = (
-/obj/machinery/hydroponics/soil,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
-/area/maintenance/apmaint)
+/obj/item/reagent_containers/glass/bottle/nutrient/rh{
+	desc = "only the best for moth's best friend";
+	name = "pibu food"
+	},
+/obj/item/reagent_containers/glass/bottle/nutrient/rh{
+	desc = "only the best for moth's best friend";
+	name = "pibu food"
+	},
+/obj/item/reagent_containers/glass/bottle/nutrient/rh{
+	desc = "only the best for moth's best friend";
+	name = "pibu food"
+	},
+/obj/structure/closet/cabinet,
+/obj/item/clothing/suit/hgpirate,
+/obj/item/clothing/head/hgpiratecap,
+/obj/item/clothing/glasses/regular,
+/obj/item/gun/energy/gun/blueshield,
+/obj/item/clothing/accessory/holster/waist,
+/obj/item/reagent_containers/glass/bottle/nutrient/rh{
+	desc = "only the best for moth's best friend";
+	name = "pibu food"
+	},
+/turf/simulated/floor/carpet,
+/area/maintenance/aft2)
 "fdg" = (
 /obj/structure/reflector/single{
 	anchored = 1;
@@ -80599,11 +80630,6 @@
 /obj/effect/decal/warning_stripes/west,
 /turf/simulated/floor/engine,
 /area/engine/engineering)
-"heB" = (
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken5"
-	},
-/area/maintenance/aft2)
 "hmh" = (
 /obj/structure/lattice,
 /turf/space,
@@ -80626,11 +80652,7 @@
 /turf/simulated/floor/plating,
 /area/toxins/mixing)
 "hum" = (
-/obj/machinery/door/airlock/vault{
-	locked = 1;
-	name = "abandoned vault";
-	req_access_txt = "32"
-	},
+/obj/structure/mineral_door/wood,
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
 "hws" = (
@@ -81135,19 +81157,12 @@
 	},
 /area/security/prisonlockers)
 "jDJ" = (
-/obj/structure/rack{
-	dir = 1
+/obj/structure/bed,
+/obj/item/bedsheet/rd{
+	desc = "smells like a combination of acid and cleaning supplys,what the fuck is going on here";
+	name = "thorium's bedsheet"
 	},
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/reagent_containers/food/drinks/bottle/whiskey,
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/carpet,
 /area/maintenance/aft2)
 "jJf" = (
 /obj/machinery/computer/communications,
@@ -81331,6 +81346,7 @@
 /obj/structure/chair/sofa/right{
 	name = "tatty old sofa"
 	},
+/obj/item/toy/plushie/lizardplushie,
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
 "kwt" = (
@@ -81587,15 +81603,6 @@
 	icon_state = "yellow"
 	},
 /area/engine/chiefs_office)
-"lxs" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/maintenance/apmaint)
 "lzm" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -81728,15 +81735,13 @@
 	name = "tatty old sofa"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/toy/plushie/greyplushie,
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
 "mbe" = (
 /obj/structure/table/wood,
-/obj/item/abductor_baton{
-	name = "grofit taker"
-	},
-/obj/item/toy/plushie/ipcplushie,
 /obj/item/aiModule/toyAI,
+/obj/item/reagent_containers/food/snacks/sosjerky/healthy,
 /turf/simulated/floor/wood,
 /area/maintenance/apmaint)
 "mbK" = (
@@ -81759,13 +81764,17 @@
 	desc = "only wieldable by true sigma male";
 	name = "Zsaber"
 	},
-/obj/item/clothing/head/hgpiratecap,
-/obj/item/clothing/suit/hgpirate,
 /obj/item/gun/projectile/revolver/doublebarrel/improvised/cane,
-/obj/item/organ/internal/heart/gland/ventcrawling,
-/obj/item/autosurgeon,
 /obj/item/clothing/gloves/color/black/thief,
-/obj/item/clothing/gloves/color/yellow/power,
+/obj/item/autosurgeon/organ,
+/obj/item/organ/internal/heart/gland/ventcrawling,
+/obj/item/dnainjector/midgit,
+/obj/item/dnainjector/eatmut,
+/obj/item/reagent_containers/glass/bottle/reagent/hairgrownium,
+/obj/item/reagent_containers/glass/bottle/reagent/hairgrownium,
+/obj/item/reagent_containers/glass/bottle/reagent/hairgrownium,
+/obj/item/reagent_containers/glass/bottle/reagent/hairgrownium,
+/obj/item/dnainjector/morph,
 /turf/simulated/floor/wood,
 /area/maintenance/apmaint)
 "mkE" = (
@@ -82070,15 +82079,10 @@
 /area/maintenance)
 "nPd" = (
 /obj/structure/table/wood,
-/obj/item/spellbook/oneuse/sacredflame{
-	name = "book of trolling"
+/obj/item/spellbook/oneuse/fake_gib{
+	name = "how to scare steven"
 	},
-/obj/item/spellbook/oneuse/summonitem{
-	name = "how to be a big shot"
-	},
-/obj/item/toy/plushie/greyplushie,
-/obj/item/toy/plushie/nukeplushie,
-/obj/item/toy/plushie/lizardplushie,
+/obj/item/spellbook/oneuse/sacredflame,
 /turf/simulated/floor/wood,
 /area/maintenance/apmaint)
 "nPw" = (
@@ -82389,15 +82393,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/engine/supermatter)
-"pow" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/effect/spawner/random_barrier/obstruction,
-/turf/simulated/floor/plating,
-/area/maintenance/apmaint)
 "psa" = (
 /obj/structure/closet/secure_closet/brig,
 /turf/simulated/floor/plasteel{
@@ -82536,9 +82531,6 @@
 /area/maintenance)
 "pZu" = (
 /obj/structure/table/wood,
-/obj/item/gun/energy/gun/blueshield{
-	name = "HIS DIVINE LIGHT"
-	},
 /obj/item/flashlight/lamp/green,
 /turf/simulated/floor/wood,
 /area/maintenance/apmaint)
@@ -82572,6 +82564,7 @@
 	name = "tatty old sofa"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/toy/plushie/nukeplushie,
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
 "qjC" = (
@@ -83599,9 +83592,8 @@
 	},
 /area/maintenance)
 "uTp" = (
-/obj/effect/spawner/random_barrier/obstruction,
 /turf/simulated/floor/plating,
-/area/maintenance/apmaint)
+/area/space)
 "uTu" = (
 /obj/structure/window/plasmareinforced{
 	dir = 8
@@ -83770,10 +83762,6 @@
 	icon_state = "red"
 	},
 /area/security/prisonlockers)
-"vFS" = (
-/obj/machinery/autolathe/upgraded/gamma,
-/turf/simulated/floor/wood,
-/area/maintenance/apmaint)
 "vFZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -84250,12 +84238,10 @@
 /area/engine/engineering)
 "xWX" = (
 /obj/structure/table/wood,
-/obj/item/clothing/accessory/holster/waist,
 /obj/item/paper{
 	info = "PLEASE STOP DANCING";
 	name = "complaints"
 	},
-/obj/item/toy/character/lich,
 /turf/simulated/floor/wood,
 /area/maintenance/apmaint)
 "ycf" = (
@@ -100657,7 +100643,7 @@ aab
 aaa
 aaa
 aMr
-ctV
+aab
 aab
 aaa
 cxY
@@ -104002,14 +103988,14 @@ ctU
 cgQ
 cgQ
 cgQ
-qHe
+cgQ
 cyE
-cgQ
+cFM
 cgQ
 cgQ
 cLi
 cLi
-cIJ
+cLi
 cLi
 cLm
 nps
@@ -104260,13 +104246,13 @@ cyE
 cvp
 sZe
 nPd
-vFS
 sZe
 sZe
+cGD
 cgQ
 cEw
 jDJ
-cNB
+fcH
 cLi
 qJc
 cNB
@@ -104520,9 +104506,9 @@ cwz
 cBf
 sZe
 sZe
-cgQ
-cEv
-cEK
+cJV
+cEI
+cEI
 cIK
 cLi
 qJc
@@ -104771,7 +104757,7 @@ aab
 cgQ
 ctU
 cgQ
-sZe
+cEJ
 sZe
 pZu
 xWX
@@ -105028,19 +105014,19 @@ aab
 cgQ
 ocN
 cgQ
-sZe
+cFe
 sZe
 ubb
-ubb
+cFK
 ubb
 sZe
 cgQ
 cFX
-cFK
-heB
 cLi
 cLi
 cLi
+uTp
+cNB
 pgF
 cOx
 aab
@@ -105292,12 +105278,12 @@ ubb
 ubb
 sZe
 cgQ
-cNB
+eLB
 cFN
 cHB
-cGI
 cLi
-cGk
+cNB
+cNB
 qJc
 cOx
 aaa
@@ -105549,10 +105535,10 @@ ubb
 ubb
 sZe
 cgQ
-cEJ
-cFM
-cGD
-cJV
+cLi
+cLi
+cLi
+cLi
 cLi
 cNB
 qJc
@@ -106057,7 +106043,7 @@ coL
 ctU
 coL
 cqF
-cwD
+cqs
 rNJ
 kmw
 pNz
@@ -106315,9 +106301,9 @@ ctU
 coL
 cqF
 coL
-fcH
 cqs
-cBo
+cqs
+coL
 coL
 cqF
 cNB
@@ -106569,11 +106555,11 @@ cam
 cqB
 csl
 ctU
-ctN
+coL
 cgQ
 krB
-eLB
-cBo
+coL
+coL
 coL
 cDQ
 cgQ
@@ -106831,7 +106817,7 @@ cgQ
 mar
 coL
 coL
-cFe
+coL
 qhK
 cgQ
 cZw
@@ -107339,7 +107325,7 @@ cam
 coP
 cqG
 cgQ
-lxs
+ctU
 coL
 cgQ
 cyi
@@ -107850,7 +107836,7 @@ ciw
 bYM
 cnX
 cnn
-pow
+coS
 cqH
 csu
 sFz
