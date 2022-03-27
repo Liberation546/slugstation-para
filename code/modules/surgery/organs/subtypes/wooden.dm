@@ -18,7 +18,7 @@
 	name = "Red's arm"
 	icon = 'icons/mob/human_races/r_golem.dmi'
 	icon_state = "r_arm"
-	var/charged = FALSE
+	var/charged = null
 
 /obj/item/organ/external/arm/right/red/New(mob/living/carbon/holder)
 	..(holder)
