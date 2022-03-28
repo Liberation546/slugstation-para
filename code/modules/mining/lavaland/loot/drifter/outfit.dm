@@ -11,7 +11,7 @@
 	armor = list(MELEE = 20, BULLET = 20, LASER = 20, ENERGY = 10, BOMB = 0, BIO = 0, RAD = 0, FIRE = 20, ACID = 0)
 
 /obj/item/clothing/shoes/drifter
-	name = "drifter's hood"
+	name = "drifter's boots"
 	desc = "The shoes of a drifter's outfit."
 	icon_state = "drifter"
 	item_state = "drifter"
