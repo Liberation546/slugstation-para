@@ -59,13 +59,13 @@ emp_act
 
 	if(istype(get_organ("r_arm"), /obj/item/organ/external/arm/right/red))
 		var/obj/item/organ/external/arm/right/red/arm = get_organ("r_arm")
-		if (!arm.charged)
-			arm.charged = TRUE
+		if (isnull(arm.charged))
+			arm.charged = P.type
 			P.Destroy()
 			visible_message("<span class='danger'>[src] absorbs the projectile!</span>", "<span class='userdanger'>You absorb the projectile!</span>")
 			return FALSE
-		else
-			arm.charged = FALSE
+		else if (istype(P, arm.charged))
+			arm.charged = null
 			P.firer = src
 			P.set_angle(P.Angle + 180)
 			visible_message("<span class='danger'>[src] deflects the projectile!</span>", "<span class='userdanger'>You deflect the projectile!</span>")
