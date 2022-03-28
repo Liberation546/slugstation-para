@@ -1128,3 +1128,11 @@
 				/obj/item/toy/crayon/red)
 	category = CAT_DECORATIONS
 	subcategory = CAT_LARGE_DECORATIONS
+
+/datum/crafting_recipe/red_arm
+	name = "Red's arm"
+	time = 50
+	result = list(/obj/item/organ/external/arm/right/wooden)
+	reqs = list(/obj/item/stack/sheet/wood = 3,
+		/obj/item/stack/sheet/mineral/adamantine = 1)
+	category = CAT_MISC
