@@ -296,7 +296,7 @@
 	heatmod = 1.5
 	dietflags = DIET_HERB		// Plants eat...plants?
 
-as_limbs = list(
+	has_limbs = list(
 		"chest" =  list("path" = /obj/item/organ/external/chest),
 		"groin" =  list("path" = /obj/item/organ/external/groin),
 		"head" =   list("path" = /obj/item/organ/external/head),
