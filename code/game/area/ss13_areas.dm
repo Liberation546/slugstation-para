@@ -1647,6 +1647,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Experimentation Lab"
 	icon_state = "toxmisc"
 
+/area/toxins/bluespace
+	name = "\improper Bluespace Labs"
+	icon_state = "bluespace"
+	there_can_be_many = TRUE
+
 //Storage
 /area/storage
 	sound_environment = SOUND_AREA_STANDARD_STATION
