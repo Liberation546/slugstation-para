@@ -1,4 +1,4 @@
-/obj/item/gun/time
+/obj/item/gun/magazine/guntime
 	name = "Guntime"
 	desc = "Who the fuck weaponized Runtime?"
 	materials = null
@@ -6,7 +6,7 @@
 	fire_sound_text = "cat"
 
 
-/obj/item/gun/time/proc/shoot_live_shot(mob/living/user, atom/target, pointblank, message)
+/obj/item/gun/magazine/guntime/proc/shoot_live_shot(mob/living/user, atom/target, pointblank, message)
 	..(user, target, pointblank, message)
 	CRASH("mraow")
 
