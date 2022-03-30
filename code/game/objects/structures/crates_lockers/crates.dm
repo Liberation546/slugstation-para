@@ -579,3 +579,10 @@
 	new /obj/item/clothing/glasses/meson(src)
 	new /obj/item/card/id/golem(src)
 	new /obj/item/flashlight/lantern(src)
+
+/obj/structure/closet/crate/lostvault
+	name = "Chest of Ancient Tributes"
+	desc = "A chest filled with extreme-risk items. The chest itself looks out of place."
+
+/obj/structure/closet/crate/lostvault/populate_contents()
+	new /obj/item/gun/energy/pulse/destroyer/annihilator(src)
