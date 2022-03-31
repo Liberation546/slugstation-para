@@ -446,6 +446,8 @@ emp_act
 		--meatleft
 		to_chat(user, "<span class='warning'>You hack off a chunk of meat from [name]</span>")
 		if(!meatleft)
+			for(var/obj/item/strip in src)
+				src.unEquip(strip)
 			add_attack_logs(user, src, "Chopped up into meat")
 			qdel(src)
 
