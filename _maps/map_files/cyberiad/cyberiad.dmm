@@ -19935,6 +19935,7 @@
 /obj/structure/closet/fireaxecabinet{
 	pixel_x = 32
 	},
+/obj/item/card/id/captains_spare,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "vault"
@@ -22631,8 +22632,8 @@
 /area/maintenance/fsmaint)
 "bbe" = (
 /obj/structure/table/wood/fancy/purple,
-/obj/item/storage/toolbox/mechanical,
 /obj/item/gun/energy/disabler,
+/obj/item/storage/belt/utility/full/multitool,
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
 "bbf" = (
@@ -24759,19 +24760,11 @@
 	layer = 4;
 	pixel_y = 32
 	},
-/obj/machinery/recharge_station,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
+/obj/machinery/tcomms/core/station,
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "bfn" = (
 /obj/structure/table/wood/fancy/purple,
 /obj/item/flashlight/lamp/green,
@@ -24861,10 +24854,13 @@
 /area/crew_quarters/bar)
 "bfu" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
+	dir = 4;
+	icon_state = "weld"
 	},
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "bfv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -25817,16 +25813,16 @@
 /area/library)
 "bhy" = (
 /obj/machinery/light/small,
-/obj/item/storage/box/donkpockets,
-/obj/structure/table/wood,
 /obj/machinery/flasher{
 	pixel_y = -25;
 	id = "AI"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "bhz" = (
 /obj/machinery/photocopier{
 	toner = 0
@@ -27428,23 +27424,21 @@
 /area/space/nearstation)
 "bkJ" = (
 /obj/machinery/light/small,
-/obj/item/folder,
-/obj/item/folder,
 /obj/machinery/camera{
 	c_tag = "Telecoms - Control Room";
 	dir = 1;
 	network = list("SS13","tcomm")
 	},
-/obj/structure/table/wood,
-/obj/item/pen/multi,
 /obj/machinery/flasher{
 	pixel_y = -25;
 	id = "AI"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "bkK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -35932,7 +35926,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/toxins/bluespace)
+/area/turret_protected/ai_upload)
 "bDZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -38128,7 +38122,7 @@
 /area/turret_protected/ai_upload)
 "bIM" = (
 /obj/machinery/smartfridge/secure/circuits/aiupload/highrisk,
-/turf/simulated/floor/bluegrid,
+/turf/simulated/floor/plasteel,
 /area/turret_protected/ai_upload)
 "bIN" = (
 /obj/machinery/light,
@@ -41313,7 +41307,6 @@
 "bOJ" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
-/obj/item/ship_in_a_bottle,
 /obj/item/clothing/head/scav,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/captain/bedroom)
@@ -43822,7 +43815,6 @@
 	name = "west bump";
 	pixel_x = -24
 	},
-/obj/effect/landmark/start/captain,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/captain/bedroom)
 "bTC" = (
@@ -58427,6 +58419,9 @@
 /obj/machinery/mineral/mint{
 	input_dir = 4
 	},
+/obj/machinery/flasher{
+	pixel_y = 25
+	},
 /turf/simulated/floor/wood,
 /area/maintenance/apmaint)
 "cvr" = (
@@ -59915,15 +59910,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/storage/tech)
-"cyu" = (
-/obj/machinery/flasher{
-	pixel_y = 25;
-	id = "AI"
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
-/area/turret_protected/ai)
 "cyv" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'HIGH VOLTAGE'";
@@ -63358,6 +63344,9 @@
 	desc = "do you like hurting people?";
 	name = "Richard"
 	},
+/obj/machinery/flasher{
+	pixel_x = 25
+	},
 /turf/simulated/floor/carpet,
 /area/maintenance/aft2)
 "cFM" = (
@@ -63366,6 +63355,9 @@
 "cFN" = (
 /obj/structure/toilet{
 	dir = 4
+	},
+/obj/machinery/flasher{
+	pixel_x = 25
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
@@ -63716,6 +63708,9 @@
 /obj/item/reagent_containers/food/snacks/meatballspaghetti,
 /obj/item/reagent_containers/food/snacks/meatballspaghetti,
 /obj/structure/closet/cabinet,
+/obj/machinery/flasher{
+	pixel_x = -25
+	},
 /turf/simulated/floor/wood,
 /area/maintenance/apmaint)
 "cGE" = (
@@ -75648,16 +75643,6 @@
 	pixel_x = 24
 	},
 /obj/machinery/light/small,
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	dir = 8;
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_x = 9;
-	pixel_y = 2
-	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkbluecorners"
@@ -75666,21 +75651,15 @@
 	name = "\improper MiniSat Exterior"
 	})
 "diD" = (
-/obj/machinery/atmospherics/unary/portables_connector{
-	layer = 2
-	},
 /obj/machinery/alarm{
 	name = "north bump";
 	pixel_y = 24
 	},
-/obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/blackbox_recorder,
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "diE" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -75777,17 +75756,24 @@
 /area/space/nearstation)
 "diO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
+	dir = 8;
+	welded = 1;
+	icon_state = "weld"
 	},
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/obj/machinery/light_switch{
+	name = "north bump";
+	pixel_y = 24
+	},
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "diQ" = (
 /obj/machinery/flasher{
-	pixel_y = -25;
-	id = "AI"
+	pixel_x = 25
 	},
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/turf/simulated/floor/carpet/blue,
+/area/maintenance/apmaint)
 "diU" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/visible/green,
@@ -75813,22 +75799,6 @@
 /turf/space,
 /area/space/nearstation)
 "djd" = (
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	dir = 8;
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_x = 9;
-	pixel_y = 2
-	},
-/obj/effect/decal/warning_stripes/north,
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
 /obj/machinery/flasher{
 	pixel_x = 25;
 	id = "AI"
@@ -75836,9 +75806,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "dje" = (
 /obj/item/twohanded/required/kirbyplants,
 /obj/machinery/power/apc{
@@ -75963,15 +75931,15 @@
 	name = "east bump";
 	pixel_x = 24
 	},
-/obj/item/paper_bin{
-	pixel_x = -1;
-	pixel_y = 6
+/obj/machinery/porta_turret{
+	dir = 8
 	},
-/obj/structure/table/wood,
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "djq" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -76122,14 +76090,6 @@
 /obj/machinery/camera{
 	c_tag = "Mini Satellite AI Chamber North";
 	network = list("SS13","MiniSat")
-	},
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_y = 20
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -76341,9 +76301,8 @@
 /turf/space,
 /area/space/nearstation)
 "dke" = (
-/obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
-/area/tcommsat/server)
+/turf/simulated/wall/indestructible/riveted,
+/area/tcommsat/chamber)
 "dkf" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -76576,14 +76535,6 @@
 	name = "north bump";
 	pixel_y = 28
 	},
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_y = 20
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -76732,15 +76683,15 @@
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "dkX" = (
-/obj/structure/table/wood,
 /obj/machinery/ai_status_display{
 	pixel_y = 31
 	},
-/obj/item/flashlight/lamp,
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "dkY" = (
 /mob/living/simple_animal/bot/secbot/griefsky/toy,
 /obj/structure/cable{
@@ -76796,9 +76747,6 @@
 	name = "\improper MiniSat Exterior"
 	})
 "dld" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
 /obj/machinery/camera/motion{
 	c_tag = "Mini Satellite Maintenance";
 	dir = 4;
@@ -76810,17 +76758,10 @@
 	pixel_x = -24
 	},
 /obj/machinery/ai_slipper,
-/obj/effect/decal/warning_stripes/north,
-/obj/structure/cable/yellow{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "dle" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
@@ -76859,18 +76800,16 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint2)
 "dlk" = (
-/obj/structure/table/wood,
-/obj/item/folder/blue,
 /obj/machinery/status_display{
 	layer = 4;
 	pixel_y = 31
 	},
-/obj/item/folder/blue,
-/obj/item/pen/multi,
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "dll" = (
 /obj/machinery/atmospherics/pipe/simple/visible/purple,
 /obj/effect/spawner/window/reinforced,
@@ -77052,13 +76991,18 @@
 /turf/simulated/floor/plating,
 /area/maintenance/aft)
 "dlR" = (
-/obj/structure/filingcabinet{
-	pixel_x = 3
+/obj/machinery/porta_turret{
+	dir = 8
+	},
+/obj/machinery/flasher{
+	pixel_x = 25;
+	id = "AI"
 	},
 /turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+	dir = 8;
+	icon_state = "vault"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/ai)
 "dlS" = (
 /mob/living/simple_animal/bot/secbot/griefsky/toy,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -77071,13 +77015,12 @@
 /turf/simulated/floor/plating,
 /area/maintenance/starboardsolar)
 "dlU" = (
-/obj/structure/chair/office/dark{
-	dir = 8
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
-	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "dlV" = (
 /obj/machinery/atmospherics/binary/pump{
 	on = 1
@@ -77359,8 +77302,10 @@
 /turf/simulated/floor/engine,
 /area/maintenance/turbine)
 "dmB" = (
-/turf/simulated/wall/r_wall,
-/area/tcommsat/computer)
+/turf/simulated/wall/indestructible/riveted,
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "dmC" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -77424,9 +77369,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "dmI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/structure/lattice/catwalk,
@@ -77449,18 +77392,7 @@
 	name = "\improper MiniSat Exterior"
 	})
 "dmK" = (
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_y = 20
-	},
-/turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "darkbluecorners"
-	},
+/turf/simulated/wall/indestructible/riveted,
 /area/turret_protected/aisat_interior{
 	name = "\improper MiniSat Central Foyer"
 	})
@@ -77496,8 +77428,10 @@
 /turf/simulated/floor/engine,
 /area/maintenance/turbine)
 "dmP" = (
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "dmQ" = (
 /obj/structure/window/reinforced,
 /obj/machinery/hologram/holopad,
@@ -77530,14 +77464,6 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
-	},
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_y = 20
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -77591,9 +77517,17 @@
 /turf/space,
 /area/space)
 "dmX" = (
-/obj/machinery/blackbox_recorder,
-/turf/simulated/floor/bluegrid,
-/area/tcommsat/server)
+/obj/machinery/flasher{
+	pixel_x = -25;
+	id = "AI"
+	},
+/obj/mecha/combat/marauder/seraph/loaded{
+	name = "Content"
+	},
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "dmY" = (
 /obj/machinery/porta_turret{
 	dir = 8
@@ -77611,10 +77545,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "dna" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -77693,16 +77629,6 @@
 	},
 /obj/machinery/light/small{
 	dir = 1
-	},
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	dir = 8;
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_x = 9;
-	pixel_y = 2
 	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -77806,17 +77732,10 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "dnr" = (
 /obj/machinery/door/poddoor/shutters{
 	density = 0;
@@ -77872,11 +77791,16 @@
 /turf/simulated/wall/r_wall,
 /area/maintenance/turbine)
 "dny" = (
-/obj/machinery/message_server,
-/turf/simulated/floor/bluegrid,
-/area/tcommsat/server)
+/obj/machinery/flasher{
+	pixel_x = 25;
+	id = "AI"
+	},
+/obj/machinery/autolathe/syndicate,
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "dnz" = (
-/obj/machinery/hologram/holopad,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
@@ -77893,10 +77817,14 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/obj/machinery/ai_slipper,
+/mob/living/simple_animal/bot/secbot/griefsky,
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "dnA" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -78268,22 +78196,15 @@
 	},
 /area/turret_protected/ai)
 "doe" = (
-/obj/machinery/power/port_gen/pacman,
-/obj/structure/cable/yellow{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /obj/machinery/flasher{
 	pixel_y = 25;
 	id = "AI"
 	},
+/obj/machinery/message_server,
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "dof" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -78746,28 +78667,17 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "dpw" = (
-/obj/machinery/power/smes{
-	charge = 5e+006
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /obj/machinery/flasher{
 	pixel_y = 25;
 	id = "AI"
 	},
+/obj/machinery/computer/message_monitor,
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "dpx" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -78825,17 +78735,20 @@
 	name = "\improper MiniSat Exterior"
 	})
 "dpD" = (
-/obj/machinery/tcomms/core/station,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/bluegrid,
-/area/tcommsat/server)
+/obj/machinery/ai_slipper,
+/mob/living/simple_animal/pet/cat/Proc,
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "dpE" = (
 /obj/machinery/flasher{
-	pixel_y = -25;
+	pixel_y = 25;
 	id = "AI"
 	},
 /turf/simulated/floor/plasteel{
@@ -78843,10 +78756,14 @@
 	},
 /area/turret_protected/ai)
 "dpF" = (
-/turf/simulated/wall,
-/area/construction/hallway{
-	name = "\improper MiniSat Exterior"
-	})
+/obj/machinery/flasher{
+	pixel_y = -25;
+	id = "AI"
+	},
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "dpK" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -78872,24 +78789,22 @@
 	name = "\improper MiniSat Exterior"
 	})
 "dpM" = (
-/obj/structure/table/wood,
 /obj/machinery/light/small{
 	dir = 8
-	},
-/obj/item/radio/off{
-	pixel_y = 4
-	},
-/obj/item/screwdriver{
-	pixel_y = 10
 	},
 /obj/machinery/flasher{
 	pixel_x = -25;
 	id = "AI"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/obj/machinery/porta_turret{
+	dir = 8
 	},
-/area/tcommsat/computer)
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "dpN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -79004,8 +78919,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "dqv" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -79035,10 +78952,12 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "dqA" = (
 /turf/simulated/floor/plasteel{
 	dir = 4;
@@ -79491,13 +79410,11 @@
 	name = "\improper MiniSat Exterior"
 	})
 "dsh" = (
-/obj/item/twohanded/required/kirbyplants{
-	icon_state = "plant-21"
+/obj/machinery/flasher{
+	pixel_y = -25
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
-	},
-/area/tcommsat/computer)
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "dsi" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -80115,13 +80032,6 @@
 /obj/effect/decal/warning_stripes/northwestcorner,
 /turf/simulated/floor/engine,
 /area/engine/engineering)
-"etJ" = (
-/obj/structure/lattice,
-/obj/structure/transit_tube{
-	icon_state = "N-S"
-	},
-/turf/space,
-/area/space/nearstation)
 "euu" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 8
@@ -80180,6 +80090,24 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/engine/supermatter)
+"eEo" = (
+/obj/machinery/flasher{
+	pixel_y = -25;
+	id = "AI"
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/katana/cursed{
+	force = 100;
+	throwforce = 35;
+	name = "The Antique";
+	desc = "An ancient blade, said to be forged from the bones of a dragon, a blade that has killed hundreds. or atleast thats what the fancy guy who sold it to the captain said. probably cursed."
+	},
+/obj/item/mecha_parts/mecha_tracking/ai_control,
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "eIi" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -80294,9 +80222,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "eTE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/wall,
@@ -80655,6 +80581,20 @@
 	icon_state = "dark"
 	},
 /area/engine/engineering)
+"gaC" = (
+/obj/machinery/flasher{
+	pixel_y = 25;
+	id = "AI"
+	},
+/obj/machinery/door_control{
+	pixel_x = 25;
+	name = "Lost Vault of Ancient Content";
+	id = "lostvaultinterior"
+	},
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "gbw" = (
 /obj/effect/decal/warning_stripes/northeastcorner,
 /turf/simulated/floor/plasteel{
@@ -80662,18 +80602,18 @@
 	},
 /area/toxins/bluespace)
 "gci" = (
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_y = 20
+/obj/machinery/turretid/stun{
+	control_area = "\improper Lost Vault of Ancient Content";
+	name = "Lost Vault of Ancient Content Turret Control";
+	pixel_y = 28;
+	req_access = list(75)
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "gei" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
@@ -81235,23 +81175,10 @@
 /area/engine/gravitygenerator)
 "idi" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/effect/decal/warning_stripes/north,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "idF" = (
 /obj/machinery/atmospherics/trinary/filter/flipped{
 	dir = 8;
@@ -81292,18 +81219,10 @@
 /area/engine/engineering)
 "iiR" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/effect/decal/warning_stripes/north,
-/obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "ioM" = (
 /obj/structure/window/plasmareinforced{
 	dir = 8
@@ -81348,6 +81267,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/engine/engineering)
+"itS" = (
+/obj/machinery/alarm{
+	dir = 8;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "ivi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -81497,10 +81424,8 @@
 /turf/simulated/floor/plasteel,
 /area/security/prisonlockers)
 "iUc" = (
-/turf/simulated/wall/r_wall,
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/turf/simulated/wall/indestructible/riveted,
+/area/tcommsat/server)
 "iWB" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering Checkpoint";
@@ -81645,13 +81570,6 @@
 	},
 /area/turret_protected/ai)
 "jqw" = (
-/obj/structure/rack,
-/obj/item/storage/toolbox/electrical{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/toolbox/mechanical,
-/obj/item/multitool,
 /obj/machinery/flasher{
 	pixel_y = -25;
 	id = "AI"
@@ -81659,9 +81577,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "jsQ" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -81696,16 +81612,10 @@
 	name = "south bump";
 	pixel_y = -28
 	},
-/obj/machinery/computer/monitor{
-	dir = 1;
-	name = "Grid Power Monitoring Computer"
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "jyI" = (
 /obj/structure/sign/poster/official/nanotrasen_logo,
 /turf/simulated/wall/r_wall,
@@ -81752,6 +81662,9 @@
 /obj/item/bedsheet/rd{
 	desc = "smells like a combination of acid and cleaning supplys,what the fuck is going on here";
 	name = "thorium's bedsheet"
+	},
+/obj/machinery/flasher{
+	pixel_x = -25
 	},
 /turf/simulated/floor/carpet,
 /area/maintenance/aft2)
@@ -81883,10 +81796,12 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "jWc" = (
 /obj/effect/decal/warning_stripes/north,
 /turf/simulated/floor/plasteel{
@@ -81935,21 +81850,10 @@
 /area/crew_quarters/dorms)
 "kjm" = (
 /obj/machinery/light,
-/obj/machinery/computer/station_alert{
-	dir = 1
-	},
-/obj/machinery/computer/security/telescreen{
-	dir = 1;
-	name = "MiniSat Monitor";
-	network = list("MiniSat","tcomm");
-	pixel_y = -30
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "kjI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -82057,8 +81961,14 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/obj/machinery/ai_status_display{
+	pixel_x = 32;
+	step_size = 0
+	},
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "kLx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -82234,9 +82144,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "ljS" = (
 /obj/effect/spawner/random_barrier/obstruction,
 /turf/simulated/floor/plating,
@@ -82470,18 +82378,17 @@
 	name = "\improper MiniSat Teleporter Foyer"
 	})
 "lYF" = (
-/obj/structure/chair/office/dark{
-	dir = 4
-	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "mar" = (
 /obj/structure/chair/sofa/left{
 	name = "tatty old sofa"
@@ -82512,6 +82419,10 @@
 /area/maintenance/asmaint2)
 "meF" = (
 /obj/structure/safe,
+/obj/item/paper{
+	info = "Unfortunately, due to complaints from previous crewmembers, Central Command has decided to empty out your safe. We apologize for the inconvenience.";
+	name = "office notice"
+	},
 /turf/simulated/floor/wood,
 /area/maintenance/apmaint)
 "mkE" = (
@@ -82570,13 +82481,6 @@
 	icon_state = "freezerfloor"
 	},
 /area/toxins/bluespace)
-"mqm" = (
-/obj/effect/spawner/window/reinforced,
-/obj/structure/transit_tube{
-	icon_state = "D-NE"
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/storage)
 "mqV" = (
 /obj/structure/railing,
 /obj/structure/chair{
@@ -82662,6 +82566,13 @@
 	},
 /turf/simulated/wall/r_wall,
 /area/engine/engineering)
+"mzl" = (
+/obj/structure/transit_tube{
+	icon_state = "S-NW";
+	dir = 6
+	},
+/turf/space,
+/area/space)
 "mzv" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -82677,7 +82588,7 @@
 	dir = 8
 	},
 /obj/machinery/flasher{
-	pixel_x = -25;
+	pixel_y = -25;
 	id = "AI"
 	},
 /turf/simulated/floor/plasteel{
@@ -82943,6 +82854,9 @@
 /area/toxins/bluespace)
 "nPd" = (
 /obj/structure/table/wood,
+/obj/machinery/flasher{
+	pixel_x = -25
+	},
 /turf/simulated/floor/wood,
 /area/maintenance/apmaint)
 "nPw" = (
@@ -83090,18 +83004,12 @@
 	name = "north bump";
 	pixel_y = 24
 	},
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_y = 20
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
-	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "ouM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -83249,8 +83157,11 @@
 	pixel_y = -24
 	},
 /obj/structure/cable,
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/obj/structure/closet/crate/lostvault,
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "oVO" = (
 /obj/structure/falsewall/reinforced{
 	req_access_txt = "20"
@@ -83286,6 +83197,26 @@
 /obj/structure/chair/sofa/corp,
 /turf/simulated/floor/carpet/green,
 /area/medical/psych)
+"pir" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/reagent_dispensers/fueltank/chem{
+	pixel_y = 32
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/bar)
 "piF" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -83684,6 +83615,12 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
 /turf/space,
 /area/space/nearstation)
+"rfE" = (
+/obj/machinery/flasher{
+	pixel_y = 25
+	},
+/turf/simulated/floor/wood,
+/area/maintenance/apmaint)
 "rhs" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -83728,9 +83665,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "rmT" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
 	dir = 1
@@ -83895,16 +83830,6 @@
 	dir = 4;
 	name = "west bump";
 	pixel_x = -24
-	},
-/obj/structure/showcase{
-	density = 0;
-	desc = "An old, deactivated cyborg. Whilst once actively used to guard against intruders, it now simply intimidates them with its cold, steely gaze.";
-	dir = 4;
-	icon = 'icons/mob/robots.dmi';
-	icon_state = "robot_old";
-	name = "Cyborg Statue";
-	pixel_x = -9;
-	pixel_y = 2
 	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -84111,23 +84036,19 @@
 	name = "north bump";
 	pixel_y = 28
 	},
-/obj/structure/table/wood,
-/obj/item/phone{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/cigbutt/cigarbutt{
-	pixel_x = 5;
-	pixel_y = -1
-	},
 /obj/machinery/flasher{
 	pixel_x = 25;
 	id = "AI"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/obj/machinery/porta_turret{
+	dir = 8
 	},
-/area/tcommsat/computer)
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "sFl" = (
 /obj/structure/chair,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -84196,9 +84117,6 @@
 /turf/simulated/wall/r_wall,
 /area/toxins/bluespace)
 "sQC" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Telecoms Server Room"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
@@ -84206,8 +84124,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/door/poddoor/impassable{
+	name = "Lost Vault of Ancient Content";
+	id = "lostvaultinterior"
+	},
 /turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/area/tcommsat/chamber)
 "sXe" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -84342,19 +84264,6 @@
 	},
 /turf/space,
 /area/solar/auxstarboard)
-"tzV" = (
-/obj/machinery/porta_turret{
-	dir = 8
-	},
-/obj/machinery/flasher{
-	pixel_x = 25;
-	id = "AI"
-	},
-/turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/turret_protected/ai)
 "tAm" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/manifold/visible{
@@ -84440,15 +84349,16 @@
 /turf/simulated/floor/carpet/green,
 /area/medical/psych)
 "tOA" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Telecoms Control Room"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/impassable{
+	name = "Lost Vault of Ancient Content Entrance";
+	id = "lostvaultexterior"
 	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -84803,15 +84713,19 @@
 	name = "Telecoms Control Room APC";
 	pixel_x = 26
 	},
-/obj/structure/filingcabinet,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/obj/machinery/porta_turret{
+	dir = 8
 	},
-/area/tcommsat/computer)
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "uIO" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -84839,8 +84753,14 @@
 	},
 /area/toxins/bluespace)
 "uTp" = (
-/turf/simulated/floor/plating,
-/area/space)
+/obj/machinery/flasher{
+	pixel_y = -25;
+	id = "AI"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/turret_protected/ai)
 "uTu" = (
 /obj/structure/window/plasmareinforced{
 	dir = 8
@@ -84981,14 +84901,20 @@
 /turf/simulated/floor/plating,
 /area/engine/supermatter)
 "vob" = (
-/obj/machinery/kitchen_machine/microwave{
-	pixel_y = 4
+/obj/machinery/porta_turret{
+	dir = 8
 	},
-/obj/structure/table/wood,
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/obj/machinery/door_control{
+	pixel_x = -25;
+	name = "Lost Vault of Ancient Content";
+	id = "lostvaultexterior"
 	},
-/area/tcommsat/computer)
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "vpN" = (
 /obj/item/radio/beacon,
 /turf/simulated/floor/plasteel{
@@ -84996,13 +84922,13 @@
 	icon_state = "vault"
 	},
 /area/security/nuke_storage)
-"vpZ" = (
-/obj/machinery/flasher{
-	pixel_y = 25;
-	id = "AI"
+"vtT" = (
+/obj/structure/lattice,
+/obj/structure/transit_tube{
+	icon_state = "N-S"
 	},
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/turf/space,
+/area/space/nearstation)
 "vBs" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 10
@@ -85158,13 +85084,15 @@
 	name = "west bump";
 	pixel_x = -24
 	},
-/obj/machinery/computer/message_monitor{
-	dir = 4
+/obj/machinery/porta_turret{
+	dir = 8
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "grimy"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
-/area/tcommsat/computer)
+/area/turret_protected/tcomeast{
+	name = "\improper MiniSat East Wing"
+	})
 "whv" = (
 /obj/machinery/computer/HolodeckControl{
 	dir = 4
@@ -85200,6 +85128,19 @@
 /obj/effect/spawner/random_barrier/possibly_welded_airlock,
 /turf/simulated/floor/plating,
 /area/maintenance/apmaint)
+"wlU" = (
+/obj/machinery/porta_turret{
+	dir = 8
+	},
+/obj/machinery/flasher{
+	pixel_x = -25;
+	id = "AI"
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/turret_protected/ai)
 "wnU" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -85264,23 +85205,11 @@
 	name = "MiniSat Maintenance APC";
 	pixel_y = -24
 	},
-/obj/structure/table,
-/obj/item/stack/sheet/metal{
-	amount = 50
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50;
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/stack/sheet/mineral/plasma,
 /obj/structure/cable,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
-	})
+/area/tcommsat/server)
 "wwh" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -85408,19 +85337,6 @@
 /obj/effect/decal/warning_stripes/southeastcorner,
 /turf/simulated/floor/fakespace,
 /area/crew_quarters/captain)
-"xaH" = (
-/obj/machinery/porta_turret{
-	dir = 8
-	},
-/obj/machinery/flasher{
-	pixel_y = -25;
-	id = "AI"
-	},
-/turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/turret_protected/ai)
 "xcB" = (
 /obj/structure/chair{
 	dir = 8
@@ -85455,6 +85371,12 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/crew_quarters/dorms)
+"xgn" = (
+/obj/machinery/flasher{
+	pixel_x = -25
+	},
+/turf/simulated/floor/carpet/blue,
+/area/maintenance/apmaint)
 "xgp" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /turf/simulated/floor/plasteel{
@@ -85559,8 +85481,13 @@
 	pixel_y = 25;
 	id = "AI"
 	},
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 4
+	},
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "xGT" = (
 /obj/machinery/requests_console,
 /turf/simulated/wall/r_wall,
@@ -85573,8 +85500,18 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/plasteel/dark,
-/area/tcommsat/server)
+/obj/machinery/mech_bay_recharge_port/upgraded{
+	dir = 2
+	},
+/obj/machinery/status_display{
+	dir = 4;
+	layer = 4;
+	pixel_x = -32
+	},
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
+	},
+/area/tcommsat/chamber)
 "xKx" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/plating,
@@ -85639,12 +85576,12 @@
 	},
 /area/security/prisonlockers)
 "xWd" = (
+/obj/effect/spawner/window/reinforced,
 /obj/structure/transit_tube{
-	icon_state = "S-NW";
-	dir = 6
+	icon_state = "D-NE"
 	},
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating,
+/area/maintenance/storage)
 "xWg" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
@@ -85712,8 +85649,10 @@
 	name = "\improper MiniSat Exterior"
 	})
 "ycf" = (
-/turf/simulated/floor/fakespace,
-/area/space)
+/turf/simulated/wall/indestructible/riveted,
+/area/turret_protected/tcomfoyer{
+	name = "\improper MiniSat Teleporter Foyer"
+	})
 "ydz" = (
 /turf/simulated/floor/plasteel,
 /area/security/prisonlockers)
@@ -106483,16 +106422,16 @@ ocN
 cFM
 cFe
 sZe
-ubb
+xgn
 cFK
 ubb
-sZe
+dsh
 cFM
 cFX
 cQy
 cQy
 cQy
-uTp
+coL
 cNB
 pgF
 cOx
@@ -106995,11 +106934,11 @@ aab
 cgQ
 ctU
 cFM
-sZe
-sZe
+rfE
+itS
 ubb
 ubb
-ubb
+diQ
 sZe
 cFM
 cQy
@@ -109561,7 +109500,7 @@ bYM
 cnX
 cnp
 coR
-uTp
+coL
 cgQ
 cgQ
 cgQ
@@ -115710,7 +115649,7 @@ bvX
 aaa
 aaa
 aaa
-ycf
+aaa
 hmh
 stt
 dzu
@@ -119377,7 +119316,7 @@ sIy
 aaa
 dcq
 dfD
-mqm
+xWd
 dcq
 aaa
 aaa
@@ -119634,8 +119573,8 @@ sIy
 aaa
 aaa
 dmW
-xWd
-etJ
+mzl
+vtT
 dmk
 dmk
 dmk
@@ -121341,7 +121280,7 @@ aSD
 bfo
 bhe
 aUS
-baP
+pir
 baL
 aUS
 aRL
@@ -121479,7 +121418,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+abp
 aaa
 aaa
 aaa
@@ -123518,7 +123457,7 @@ rWq
 dpN
 dkH
 dru
-dpF
+dmg
 drK
 dlK
 drK
@@ -124031,16 +123970,16 @@ dqm
 lYj
 hLO
 dqE
-dru
+ycf
 dmB
 dmB
 dmB
-dsa
-dsa
-dsa
-dsa
+dmB
 dmg
-drK
+dmg
+dmg
+dmg
+dmg
 drK
 drB
 dlo
@@ -124274,13 +124213,13 @@ drK
 drK
 dmg
 drf
-mIo
+wlU
 dpg
 mvh
 dqQ
 dqL
 dpg
-xaH
+mIo
 lct
 diJ
 drf
@@ -124288,16 +124227,16 @@ djG
 djG
 kFh
 djG
-djG
+dmK
 dpM
 wbr
 vob
-dsa
-dsa
-dsa
-dsa
+dke
+dke
+dke
+dke
+dke
 dmg
-drK
 drK
 drB
 dlo
@@ -124531,7 +124470,7 @@ drK
 dmg
 dmg
 drf
-cyu
+dpE
 dry
 dlS
 dme
@@ -124545,15 +124484,15 @@ ddO
 wVA
 dkb
 uuX
-djG
+dmK
 dlk
 dlU
 bhy
-dsa
+dke
 xGx
 xJe
 dmX
-dsa
+dke
 dmg
 drK
 drB
@@ -124796,21 +124735,21 @@ drf
 drf
 dkW
 dms
-dpE
+uTp
 drf
-dmK
+dph
 dph
 dkb
 ghX
-djG
+dmK
 gci
 jVA
-dsh
+dlU
 dke
 bfu
 dmP
-diQ
-dsa
+dpF
+dke
 dmg
 drK
 drB
@@ -125067,7 +125006,7 @@ sQC
 dqq
 dpD
 oTm
-dsa
+dke
 dmg
 drK
 drB
@@ -125310,21 +125249,21 @@ drf
 drf
 dpm
 dms
-dpE
+uTp
 drf
 dkI
 dqA
 dkb
 dpO
-djG
+dmK
 orY
 dqx
-dlR
+dlU
 dke
 diO
 dmP
-diQ
-dsa
+eEo
+dke
 dmg
 drK
 drB
@@ -125559,7 +125498,7 @@ drK
 dmg
 dmg
 drf
-cyu
+dpE
 vEz
 drM
 dkY
@@ -125573,15 +125512,15 @@ doy
 doN
 mtY
 djD
-djG
+dmK
 dkX
 lYF
 bkJ
-dsa
-vpZ
+dke
+gaC
 kKB
 dny
-dsa
+dke
 dmg
 drK
 drB
@@ -125822,24 +125761,24 @@ dkU
 dOp
 diM
 dnT
-tzV
+dlR
 shi
 dpV
 drf
-iUc
-iUc
+dsa
+dsa
 lhW
-iUc
+dsa
 iUc
 sCb
 uHY
 djp
-dsa
-dsa
-dsa
-dsa
+dke
+dke
+dke
+dke
+dke
 dmg
-drK
 drK
 drB
 drG
@@ -126091,12 +126030,12 @@ iUc
 dmB
 dmB
 dmB
-dsa
-dsa
-dsa
-dsa
+dmB
 dmg
-drK
+dmg
+dmg
+dmg
+dmg
 drK
 drB
 drG
@@ -126339,12 +126278,12 @@ drf
 drf
 drf
 drf
-iUc
+dsa
 bfm
 idi
 dnq
 kjm
-iUc
+dsa
 dmg
 dmg
 dmg
@@ -126602,7 +126541,7 @@ iiR
 rmM
 jvZ
 dmg
-dpF
+dmg
 drK
 dlK
 drK
@@ -131225,7 +131164,7 @@ aaa
 aaa
 aaa
 aaa
-abp
+aaa
 aaa
 aaa
 aaa

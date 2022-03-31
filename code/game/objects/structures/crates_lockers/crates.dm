@@ -586,3 +586,8 @@
 
 /obj/structure/closet/crate/lostvault/populate_contents()
 	new /obj/item/gun/energy/pulse/destroyer/annihilator(src)
+	new /obj/item/autosurgeon(src)
+	new /obj/item/adminfu_scroll(src)
+	new /obj/item/malf_upgrade(src)
+	new /obj/item/sord(src)
+	new /obj/item/gun/projectile/revolver/guntime(src)
