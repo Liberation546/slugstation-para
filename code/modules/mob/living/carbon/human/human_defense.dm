@@ -433,6 +433,9 @@ emp_act
 		return 0
 
 	if(HAS_TRAIT(I, TRAIT_BUTCHERS_HUMANS) && stat == DEAD && user.a_intent == INTENT_HARM)
+		if(src.dna.species.name = "Machine"))
+			to_chat(user, "<span class='warning'>[src] is made of metal! How do you expect to gather meat from it?</span>")
+			return 0
 		var/obj/item/reagent_containers/food/snacks/meat/human/newmeat = new /obj/item/reagent_containers/food/snacks/meat/human(get_turf(loc))
 		newmeat.name = real_name + newmeat.name
 		newmeat.subjectname = real_name
@@ -443,6 +446,8 @@ emp_act
 		--meatleft
 		to_chat(user, "<span class='warning'>You hack off a chunk of meat from [name]</span>")
 		if(!meatleft)
+			for(var/obj/item/strip in src)
+				src.unEquip(strip)
 			add_attack_logs(user, src, "Chopped up into meat")
 			qdel(src)
 
