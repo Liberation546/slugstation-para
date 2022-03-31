@@ -24860,7 +24860,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "bfv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -25821,7 +25823,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "bhz" = (
 /obj/machinery/photocopier{
@@ -27437,7 +27439,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "bkK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -75767,7 +75769,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "diQ" = (
 /obj/machinery/flasher{
 	pixel_x = 25
@@ -75938,7 +75942,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "djq" = (
 /obj/structure/cable/yellow{
@@ -76302,7 +76306,9 @@
 /area/space/nearstation)
 "dke" = (
 /turf/simulated/wall/indestructible/riveted,
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "dkf" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -76690,7 +76696,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "dkY" = (
 /mob/living/simple_animal/bot/secbot/griefsky/toy,
@@ -76808,7 +76814,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "dll" = (
 /obj/machinery/atmospherics/pipe/simple/visible/purple,
@@ -77019,7 +77025,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "dlV" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -77304,7 +77310,7 @@
 "dmB" = (
 /turf/simulated/wall/indestructible/riveted,
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "dmC" = (
 /obj/structure/window/reinforced{
@@ -77431,7 +77437,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "dmQ" = (
 /obj/structure/window/reinforced,
 /obj/machinery/hologram/holopad,
@@ -77527,7 +77535,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "dmY" = (
 /obj/machinery/porta_turret{
 	dir = 8
@@ -77549,7 +77559,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "dna" = (
 /obj/structure/window/reinforced,
@@ -77799,7 +77809,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "dnz" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -77823,7 +77835,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "dnA" = (
 /obj/structure/window/reinforced{
@@ -78745,7 +78757,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "dpE" = (
 /obj/machinery/flasher{
 	pixel_y = 25;
@@ -78763,7 +78777,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "dpK" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -78803,7 +78819,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "dpN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -78922,7 +78938,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "dqv" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -78956,7 +78974,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "dqA" = (
 /turf/simulated/floor/plasteel{
@@ -80107,7 +80125,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "eIi" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -80594,7 +80614,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "gbw" = (
 /obj/effect/decal/warning_stripes/northeastcorner,
 /turf/simulated/floor/plasteel{
@@ -80612,7 +80634,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper Lost Vault of Ancient Content"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "gei" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -81800,7 +81822,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "jWc" = (
 /obj/effect/decal/warning_stripes/north,
@@ -81968,7 +81990,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "kLx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -82387,7 +82411,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "mar" = (
 /obj/structure/chair/sofa/left{
@@ -83008,7 +83032,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "ouM" = (
 /obj/structure/disposalpipe/segment{
@@ -83161,7 +83185,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "oVO" = (
 /obj/structure/falsewall/reinforced{
 	req_access_txt = "20"
@@ -84047,7 +84073,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "sFl" = (
 /obj/structure/chair,
@@ -84126,10 +84152,12 @@
 	},
 /obj/machinery/door/poddoor/impassable{
 	name = "Lost Vault of Ancient Content";
-	id = "lostvaultinterior"
+	id_tag = "lostvaultinterior"
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "sXe" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -84358,11 +84386,10 @@
 	},
 /obj/machinery/door/poddoor/impassable{
 	name = "Lost Vault of Ancient Content Entrance";
-	id = "lostvaultexterior"
+	id_tag = "lostvaultexterior"
 	},
-/turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "vault"
+/turf/simulated/floor/indestructible{
+	icon_state = "engine"
 	},
 /area/turret_protected/aisat_interior{
 	name = "\improper MiniSat Central Foyer"
@@ -84724,7 +84751,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "uIO" = (
 /obj/structure/cable{
@@ -84913,7 +84940,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "vpN" = (
 /obj/item/radio/beacon,
@@ -85091,7 +85118,7 @@
 	icon_state = "engine"
 	},
 /area/turret_protected/tcomeast{
-	name = "\improper MiniSat East Wing"
+	name = "\improper Lost Vault of Ancient Content Entrance"
 	})
 "whv" = (
 /obj/machinery/computer/HolodeckControl{
@@ -85487,7 +85514,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "xGT" = (
 /obj/machinery/requests_console,
 /turf/simulated/wall/r_wall,
@@ -85511,7 +85540,9 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "engine"
 	},
-/area/tcommsat/chamber)
+/area/tcommsat/chamber{
+	name = "\improper Lost Vault of Ancient Content"
+	})
 "xKx" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/plating,
