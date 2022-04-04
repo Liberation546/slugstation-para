@@ -750,7 +750,7 @@
 				upgraded_cameras++
 
 	unlock_text = replacetext(unlock_text, "CAMSUPGRADED", "<b>[upgraded_cameras]</b>") //This works, since unlock text is called after upgrade()
-
+/* irrelevant due to the eye hearing by default
 /datum/AI_Module/large/eavesdrop
 	module_name = "Enhanced Surveillance"
 	mod_pick_name = "eavesdrop"
@@ -764,7 +764,7 @@
 /datum/AI_Module/large/eavesdrop/upgrade(mob/living/silicon/ai/AI)
 	if(AI.eyeobj)
 		AI.eyeobj.relay_speech = TRUE
-
+*/
 /datum/AI_Module/large/cameracrack
 	module_name = "Core Camera Cracker"
 	mod_pick_name = "cameracrack"
