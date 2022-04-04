@@ -297,17 +297,17 @@
 	dietflags = DIET_HERB		// Plants eat...plants?
 
 	has_limbs = list(
-			"chest" =  list("path" = /obj/item/organ/external/chest),
-			"groin" =  list("path" = /obj/item/organ/external/groin),
-			"head" =   list("path" = /obj/item/organ/external/head),
-			"l_arm" =  list("path" = /obj/item/organ/external/arm),
-			"r_arm" =  list("path" = /obj/item/organ/external/arm/right/red),
-			"l_leg" =  list("path" = /obj/item/organ/external/leg),
-			"r_leg" =  list("path" = /obj/item/organ/external/leg/right),
-			"l_hand" = list("path" = /obj/item/organ/external/hand),
-			"r_hand" = list("path" = /obj/item/organ/external/hand/right),
-			"l_foot" = list("path" = /obj/item/organ/external/foot),
-			"r_foot" = list("path" = /obj/item/organ/external/foot/right))
+		"chest" =  list("path" = /obj/item/organ/external/chest),
+		"groin" =  list("path" = /obj/item/organ/external/groin),
+		"head" =   list("path" = /obj/item/organ/external/head),
+		"l_arm" =  list("path" = /obj/item/organ/external/arm),
+		"r_arm" =  list("path" = /obj/item/organ/external/arm/right/red),
+		"l_leg" =  list("path" = /obj/item/organ/external/leg),
+		"r_leg" =  list("path" = /obj/item/organ/external/leg/right),
+		"l_hand" = list("path" = /obj/item/organ/external/hand),
+		"r_hand" = list("path" = /obj/item/organ/external/hand/right),
+		"l_foot" = list("path" = /obj/item/organ/external/foot),
+		"r_foot" = list("path" = /obj/item/organ/external/foot/right))
 
 
 	info_text = "As a <span class='danger'>Wooden Golem</span>, you have plant-like traits: you take damage from extreme temperatures, can be set on fire, and have lower armor than a normal golem. You regenerate when in the light and wither in the darkness."
