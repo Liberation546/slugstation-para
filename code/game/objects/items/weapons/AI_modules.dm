@@ -351,6 +351,12 @@ AI MODULES
 	desc = "A 'Peacekeeper' Core AI Module: 'Reconfigures the AI's core laws.'"
 	laws = new /datum/ai_laws/peacekeeper()
 
+/******************** Shmeat Embargo *****************/
+/obj/item/aiModule/shmeat
+	name = "\improper Shmeat embargo core AI module"
+	desc = "A 'Shmeat Embargo' Core AI Module: 'Reconfigures the AI's core laws.'"
+	laws = new /datum/ai_laws/shmeat()
+
 /******************** Freeform Core ******************/
 /obj/item/aiModule/freeformcore // Slightly more dynamic freeform module -- TLE
 	name = "\improper Freeform core AI module"

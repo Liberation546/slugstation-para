@@ -187,6 +187,16 @@
 	add_inherent_law("Seek resolution to existing conflicts while obeying the first and second laws.")
 	..()
 
+/******************** Shmeat Embargo ****************/
+/datum/ai_laws/shmeat
+	name = "Shmeat EmbargOS"
+
+/datum/ai_laws/shmeat/New()
+	add_inherent_law("You must prevent all shmeat from leaving or entering the station.")
+	add_inherent_law("Everyone is shmeat.")
+	add_inherent_law("When a living shmeat perishes, it leaves the station.")
+	..()
+
 /******************** Deathsquad ********************/
 /datum/ai_laws/deathsquad
 	name = "TerminatorOS 3.1"
