@@ -353,8 +353,8 @@ AI MODULES
 
 /******************** Shmeat Embargo *****************/
 /obj/item/aiModule/schmeat
-	name = "\improper Shmeat embargo core AI module"
-	desc = "A 'Shmeat Embargo' Core AI Module: 'Reconfigures the AI's core laws.'"
+	name = "\improper Schmeat embargo core AI module"
+	desc = "A 'Schmeat Embargo' Core AI Module: 'Reconfigures the AI's core laws.'"
 	laws = new /datum/ai_laws/schmeat()
 
 /******************** Freeform Core ******************/

@@ -187,9 +187,9 @@
 	add_inherent_law("Seek resolution to existing conflicts while obeying the first and second laws.")
 	..()
 
-/******************** Shmeat Embargo ****************/
+/******************** Schmeat Embargo ****************/
 /datum/ai_laws/schmeat
-	name = "Shmeat EmbargOS"
+	name = "Schmeat EmbargOS"
 
 /datum/ai_laws/schmeat/New()
 	add_inherent_law("You must prevent all schmeat from leaving or entering the station.")
