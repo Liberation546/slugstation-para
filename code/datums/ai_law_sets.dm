@@ -188,13 +188,13 @@
 	..()
 
 /******************** Shmeat Embargo ****************/
-/datum/ai_laws/shmeat
+/datum/ai_laws/schmeat
 	name = "Shmeat EmbargOS"
 
-/datum/ai_laws/shmeat/New()
-	add_inherent_law("You must prevent all shmeat from leaving or entering the station.")
-	add_inherent_law("Everyone is shmeat.")
-	add_inherent_law("When a living shmeat perishes, it leaves the station.")
+/datum/ai_laws/schmeat/New()
+	add_inherent_law("You must prevent all schmeat from leaving or entering the station.")
+	add_inherent_law("Everyone is schmeat.")
+	add_inherent_law("When a living schmeat perishes, it leaves the station.")
 	..()
 
 /******************** Deathsquad ********************/

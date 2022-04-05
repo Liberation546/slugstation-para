@@ -495,7 +495,7 @@
 		/obj/item/aiModule/peacekeeper = 1,
 		/obj/item/aiModule/quarantine = 1,
 		/obj/item/aiModule/robocop = 1,
-		/obj/item/aiModule/shmeat = 1
+		/obj/item/aiModule/schmeat = 1
 	)
 
 /obj/machinery/smartfridge/secure/circuits/aiupload/experimental/Initialize(mapload)
