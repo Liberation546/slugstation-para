@@ -1,5 +1,4 @@
 // https://discord.com/channels/826892312977473616/827315126969171968/955489825325219851
-
 // TODO: dashing
 
 /obj/item/clothing/head/drifter
@@ -66,9 +65,9 @@
 	pockets.storage_slots = 7 // one for every gun
 	pockets.max_w_class = WEIGHT_CLASS_NORMAL
 	pockets.max_combined_w_class = 21
-	pockets.can_hold = list( \
-		/obj/item/gun/energy/drifter, \
-		/obj/item/gun/energy/drifter/upgraded \
+	pockets.can_hold = list(
+		/obj/item/gun/energy/drifter,
+		/obj/item/gun/energy/drifter/upgraded
 		) //  there will be more guns in the future
 
 /datum/outfit/admin/drifter
@@ -79,10 +78,8 @@
 	back = /obj/item/storage/backpack
 	shoes = /obj/item/clothing/shoes/drifter
 	head = /obj/item/clothing/head/drifter
-	l_ear = /obj/item/radio
 	suit_store = /obj/item/melee/drifter
 	id = /obj/item/card/id
-	pda = /obj/item/pda
 
 /datum/outfit/admin/drifter/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
