@@ -37,4 +37,4 @@
 	playsound(src, 'sound/creatures/cat_meow.ogg', 50, 0.75)
 	for(var/obj/item/I in target)
 		I.forceMove(get_turf(target))
-	addtimer(CALLBACK(target, .proc/qdel, target), 100)
+	qdel(target)
